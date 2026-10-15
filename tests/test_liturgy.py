@@ -51,6 +51,33 @@ def test_displaced_sunday_gets_a_week_suffix_so_keys_stay_unique_within_a_year()
 def test_feria_with_no_anchor_still_gets_a_unique_key():
     idx = celebrations(week(date(2026, 10, 12), ["Feria"]))
     assert idx.celebration(date(2026, 10, 12)).key == "feria|2026-10-12"
+    assert idx.celebration(date(2026, 10, 12)).name == "Feria"
+
+
+def test_gap_between_merged_pages_resets_the_sunday_anchor():
+    rows = week(date(2026, 10, 11), ["Twentieth Sunday after Pentecost", "Feria"])
+    rows.update(week(date(2026, 12, 7), ["Feria", "Feria"]))
+    idx = celebrations(rows)
+    assert idx.celebration(date(2026, 10, 12)).key == "feria|twentieth sunday after pentecost|monday"
+    assert idx.celebration(date(2026, 12, 7)).key == "feria|2026-12-07"
+    assert idx.celebration(date(2026, 12, 7)).name == "Feria"
+    assert idx.celebration(date(2026, 12, 8)).key == "feria|2026-12-08"
+
+
+def test_two_consecutive_displaced_sundays_give_plus_one_then_plus_two():
+    names = ["Twentieth Sunday after Pentecost"] + ["Feria"] * 6 + ["Dedication of a Basilica", "Feria"] * 1
+    names += ["Feria"] * 5 + ["St. Hedwig", "Feria"]
+    idx = celebrations(week(date(2026, 10, 11), names))
+    assert idx.celebration(date(2026, 10, 19)).key == "feria|twentieth sunday after pentecost+1|monday"
+    assert idx.celebration(date(2026, 10, 26)).key == "feria|twentieth sunday after pentecost+2|monday"
+
+
+def test_temporal_sunday_after_a_displaced_one_resets_the_suffix():
+    names = ["Twentieth Sunday after Pentecost"] + ["Feria"] * 6
+    names += ["Dedication of a Basilica"] + ["Feria"] * 6
+    names += ["Twenty-First Sunday after Pentecost", "Feria"]
+    idx = celebrations(week(date(2026, 10, 11), names))
+    assert idx.celebration(date(2026, 10, 26)).key == "feria|twenty first sunday after pentecost|monday"
 
 
 def test_index_lookup_newest_first_and_unknown_cases():
@@ -91,3 +118,17 @@ def test_real_ordo_pages_match_the_same_celebration_across_years():
     feria = idx.celebration(date(2026, 10, 21))
     assert feria.key == "feria|twenty first sunday after pentecost|wednesday"
     assert idx.dates_for(feria.key) == [date(2026, 10, 21), date(2019, 11, 6)]
+
+
+def test_real_ordo_feria_keys_are_unique_within_a_calendar_year():
+    rows = {}
+    rows.update(dated("ordo-2018-10.html", [(2018, 10)]))
+    rows.update(dated("ordo-2019.html", [(2018, 11), (2018, 12)]))
+    rows.update(dated("ordo-2026.html", [(2025, 11), (2025, 12)]))
+    idx = celebrations(rows)
+    seen = {}
+    for d in sorted(rows):
+        key = idx.celebration(d).key
+        if key.startswith("feria|"):
+            assert (d.year, key) not in seen, (key, seen[(d.year, key)], d)
+            seen[(d.year, key)] = d

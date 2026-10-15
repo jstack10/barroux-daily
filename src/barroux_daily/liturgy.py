@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from .ordo import Row
@@ -92,8 +92,12 @@ def celebrations(rows: dict[date, Row]) -> Index:
     anchor: str | None = None
     anchor_name = ""
     displaced = 0  # temporal Sundays displaced by a feast since the anchor
+    prev: date | None = None
     for d in sorted(rows):
         row = rows[d]
+        if prev is not None and d - prev != timedelta(days=1):
+            anchor, anchor_name, displaced = None, "", 0  # gap between pages: Sunday unknown
+        prev = d
         if row.weekday == "Sunday":
             if _TEMPORAL_SUNDAY.search(row.name):
                 anchor, anchor_name, displaced = norm(row.name), _title(row.name), 0
