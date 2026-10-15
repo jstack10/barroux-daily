@@ -13,6 +13,16 @@ from .ordo import Row
 # a pair of lookalikes in that list means an alias is missing.
 ALIASES = {
     "teresa of avila": "teresa of jesus",
+    "barnabus": "barnabas",
+    "simon and jude": "simon jude",
+    "soter and caius": "soter caius",
+    "mary magdalen of pazzi": "mary magdalen de pazzi",
+    "mary magdalene de pazzi": "mary magdalen de pazzi",
+    "the sacred heart of jesus": "the most sacred heart of jesus",
+    "the transfiguration of our lord jesus christ": "the transfiguration of our lord",
+    "the transfiguration of our lord n b on sundays": "the transfiguration of our lord",
+    "the immaculate heart of mary": "the immaculate heart of the virgin mary",
+    "immaculate heart of the virgin mary": "the immaculate heart of the virgin mary",
 }
 
 _TEMPORAL_SUNDAY = re.compile(r"\bsunday\b|pentecost|easter", re.I)
