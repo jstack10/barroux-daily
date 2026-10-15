@@ -1,0 +1,81 @@
+import xml.etree.ElementTree as ET
+from datetime import date, datetime, timezone
+
+import pytest
+
+from barroux_daily import build
+from barroux_daily.build import build_feed, load_index, local_today
+from barroux_daily.liturgy import Celebration, Index
+
+BASE = "https://example.github.io/barroux-daily"
+NY = "America/New_York"
+
+
+def only_lauds(d):
+    return {"lauds": f"https://cdn.barrouxchant.com/{d.isoformat()}-lauds.mp3"}
+
+
+def guids(xml):
+    return [g.text for g in ET.fromstring(xml).iterfind("channel/item/guid")]
+
+
+def test_window_covers_today_and_previous_days():
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=2)
+    assert guids(xml) == ["barroux-daily:2026-10-15:lauds", "barroux-daily:2026-10-14:lauds"]
+
+
+def test_default_window_is_seven_days():
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE)
+    assert len(guids(xml)) == build.WINDOW_DAYS == 7
+
+
+def test_episode_whose_file_404s_is_dropped():
+    def probe(url):
+        return None if "2026-10-14" in url else 10
+
+    xml = build_feed(date(2026, 10, 15), only_lauds, probe, NY, BASE, window=2)
+    assert guids(xml) == ["barroux-daily:2026-10-15:lauds"]
+
+
+def test_enclosure_length_comes_from_probe():
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 1234, NY, BASE, window=1)
+    assert ET.fromstring(xml).find("channel/item/enclosure").get("length") == "1234"
+
+
+def test_titles_use_the_index_celebration_name():
+    idx = Index({date(2026, 10, 15): Celebration("teresa", "St. Teresa of Jesus")})
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, index=idx, window=1)
+    assert ET.fromstring(xml).findtext("channel/item/title") == "Lauds · St. Teresa of Jesus"
+
+
+def test_refuses_to_publish_an_empty_feed():
+    with pytest.raises(RuntimeError, match="empty feed"):
+        build_feed(date(2026, 10, 15), lambda d: {}, lambda u: 10, NY, BASE)
+
+
+def test_everything_404ing_also_refuses():
+    with pytest.raises(RuntimeError, match="empty feed"):
+        build_feed(date(2026, 10, 15), only_lauds, lambda u: None, NY, BASE)
+
+
+def test_local_today_uses_the_feed_timezone_not_utc():
+    three_am_utc = datetime(2026, 10, 15, 3, 0, tzinfo=timezone.utc)
+    assert local_today("America/New_York", three_am_utc) == date(2026, 10, 14)
+    assert local_today("Europe/London", three_am_utc) == date(2026, 10, 15)
+    assert local_today("UTC", three_am_utc) == date(2026, 10, 15)
+
+
+def test_load_index_returns_none_and_warns_when_the_file_is_missing(tmp_path, capsys):
+    assert load_index(tmp_path / "nope.json") is None
+    assert "ordo index" in capsys.readouterr().err
+
+
+def test_main_writes_feed_and_index_even_without_an_ordo_index(tmp_path, monkeypatch):
+    monkeypatch.setenv("OUT_DIR", str(tmp_path))
+    monkeypatch.setenv("FEED_BASE_URL", BASE)
+    monkeypatch.setenv("ORDO_INDEX", str(tmp_path / "missing.json"))
+    monkeypatch.setattr(build, "fetch_day", only_lauds)
+    monkeypatch.setattr(build, "head_length", lambda u: 10)
+    build.main()
+    assert (tmp_path / "feed.xml").read_bytes().startswith(b"<?xml")
+    assert f"{BASE}/feed.xml" in (tmp_path / "index.html").read_text()
