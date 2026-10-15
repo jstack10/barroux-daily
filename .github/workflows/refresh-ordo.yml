@@ -1,0 +1,32 @@
+name: refresh-ordo
+
+on:
+  schedule:
+    - cron: "23 5 2 * *" # 2nd of each month; picks up next year's ordo when propria.org posts it
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e '.[dev]'
+      - run: python -m barroux_daily.ordo_index
+      - run: pytest -q
+      - name: Commit if the index changed
+        run: |
+          if git diff --quiet data/ordo_index.json; then
+            echo "ordo index unchanged"
+          else
+            git config user.name "github-actions"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/ordo_index.json
+            git commit -m "chore: refresh ordo index"
+            git push
+          fi
