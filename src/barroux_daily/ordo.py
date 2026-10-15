@@ -1,7 +1,8 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import date
+import sys
+from datetime import date, timedelta
 from html.parser import HTMLParser
 from typing import Sequence
 
@@ -59,18 +60,25 @@ def parse_rows(html: str) -> list[Row]:
 
 
 def _walk(rows: Sequence[Row], year: int, month: int) -> dict[date, Row]:
+    """Date rows sequentially: the first from its day number, the rest as previous + 1 day."""
     dated: dict[date, Row] = {}
-    prev: int | None = None
+    d: date | None = None
     for row in rows:
-        if prev is not None and row.day == 1 and prev != 1:
-            month += 1
-            if month == 13:
-                year, month = year + 1, 1
-        d = date(year, month, row.day)  # ValueError if the day does not exist
+        if d is None:
+            try:
+                d = date(year, month, row.day)
+            except ValueError:
+                raise ValueError(f"first row day {row.day} does not exist in {year}-{month:02d}") from None
+        else:
+            d += timedelta(days=1)
         if WEEKDAYS[d.weekday()] != row.weekday:
             raise ValueError(f"weekday mismatch at {d}: page says {row.weekday}")
+        if d.day != row.day:
+            print(
+                f"warning: ordo page row says day {row.day} but calendar says {d} (weekday agrees)",
+                file=sys.stderr,
+            )
         dated[d] = row
-        prev = row.day
     return dated
 
 

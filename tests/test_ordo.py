@@ -58,3 +58,24 @@ def test_assign_dates_tries_the_next_candidate_start():
 def test_wrong_start_month_raises():
     with pytest.raises(ValueError, match="weekday"):
         assign_dates(parse_rows(page("ordo-2018-10.html")), [(2018, 9)])
+
+
+def _week(days):
+    names = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    # 2018-10-01 is a Monday; weekday and name follow position, the printed day is as given
+    return [Row(d, names[i % 7], f"r{i + 1}") for i, d in enumerate(days)]
+
+
+def test_a_mistyped_day_cell_is_dated_sequentially_and_warns(capsys):
+    rows = _week([1, 2, 3, 1, 5, 6, 7])  # fourth row should say 4
+    dated = assign_dates(rows, [(2018, 10)])
+    assert dated[date(2018, 10, 4)].name == "r4"
+    assert len(dated) == 7
+    assert "warning" in capsys.readouterr().err
+
+
+def test_a_duplicated_row_still_raises():
+    rows = _week([1, 2, 3, 4, 5, 6, 7])
+    rows.insert(3, rows[2])  # the Wednesday row appears twice
+    with pytest.raises(ValueError, match="weekday"):
+        assign_dates(rows, [(2018, 10)])
