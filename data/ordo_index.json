@@ -1,10 +1,10 @@
 {
 "2017-01-01": [
-"octave day of christmas",
+"octave of the nativity of the lord",
 "Octave Day of Christmas"
 ],
 "2017-01-02": [
-"holy name of jesus",
+"most holy name of jesus",
 "Holy Name of Jesus"
 ],
 "2017-01-03": [
@@ -20,15 +20,15 @@
 "Feria"
 ],
 "2017-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2017-01-07": [
-"votive mass saturday of our lady",
+"saturday of our lady",
 "Votive Mass: Saturday of Our Lady"
 ],
 "2017-01-08": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2017-01-09": [
@@ -88,7 +88,7 @@
 "Third Sunday after Epiphany"
 ],
 "2017-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort"
 ],
 "2017-01-24": [
@@ -220,7 +220,7 @@
 "St. Matthias, Apostle"
 ],
 "2017-02-25": [
-"votive mass saturday of our lady",
+"saturday of our lady",
 "Votive Mass: Saturday of Our Lady"
 ],
 "2017-02-26": [
@@ -264,7 +264,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2017-03-08": [
-"ember wednesday of lent",
+"ember|lent|wednesday",
 "Ember Wednesday of Lent"
 ],
 "2017-03-09": [
@@ -272,11 +272,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2017-03-10": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2017-03-11": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2017-03-12": [
@@ -332,7 +332,7 @@
 "Friday after Third Sunday of Lent"
 ],
 "2017-03-25": [
-"the annunciation of the virgin mary",
+"annunciation of the virgin mary",
 "The Annunciation of the Blessed Virgin Mary"
 ],
 "2017-03-26": [
@@ -364,7 +364,7 @@
 "Saturday after Fourth Sunday of Lent"
 ],
 "2017-04-02": [
-"first sunday of passiontide",
+"passion sunday",
 "First Sunday of Passiontide"
 ],
 "2017-04-03": [
@@ -392,7 +392,7 @@
 "Saturday of Passion Week"
 ],
 "2017-04-09": [
-"second sunday of passiontide",
+"palm sunday",
 "Second Sunday of Passiontide"
 ],
 "2017-04-10": [
@@ -404,7 +404,7 @@
 "Tuesday of Holy Week"
 ],
 "2017-04-12": [
-"wednesday of holy week office of tenebrae",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebrae"
 ],
 "2017-04-13": [
@@ -412,11 +412,11 @@
 "Maundy Thursday"
 ],
 "2017-04-14": [
-"good friday mass of the presanctified",
+"good friday",
 "Good Friday — Mass of the Presanctified"
 ],
 "2017-04-15": [
-"easter vigil mass",
+"holy saturday",
 "Easter Vigil Mass"
 ],
 "2017-04-16": [
@@ -448,7 +448,7 @@
 "Easter Saturday"
 ],
 "2017-04-23": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2017-04-24": [
@@ -476,7 +476,7 @@
 "St. Peter of Verona, Martyr"
 ],
 "2017-04-30": [
-"second sunday after easter",
+"good shepherd sunday",
 "Second Sunday after Easter"
 ],
 "2017-05-01": [
@@ -488,7 +488,7 @@
 "St. Athanasius, Bishop, Confessor & Doctor"
 ],
 "2017-05-03": [
-"feria|second sunday after easter|wednesday",
+"feria|good shepherd sunday|wednesday",
 "Wednesday after Second Sunday after Easter"
 ],
 "2017-05-04": [
@@ -576,7 +576,7 @@
 "Vigil of the Ascension"
 ],
 "2017-05-25": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of The Lord"
 ],
 "2017-05-26": [
@@ -628,7 +628,7 @@
 "Pentecost Tuesday"
 ],
 "2017-06-07": [
-"pentecost wednesday",
+"ember|pentecost|wednesday",
 "Pentecost Wednesday"
 ],
 "2017-06-08": [
@@ -636,11 +636,11 @@
 "Pentecost Thursday"
 ],
 "2017-06-09": [
-"pentecost friday",
+"ember|pentecost|friday",
 "Pentecost Friday"
 ],
 "2017-06-10": [
-"pentecost saturday",
+"ember|pentecost|saturday",
 "Pentecost Saturday"
 ],
 "2017-06-11": [
@@ -676,7 +676,7 @@
 "Second Sunday after Pentecost"
 ],
 "2017-06-19": [
-"julia of falconieri",
+"juliana falconieri",
 "St. Julia of Falconieri, Virgin"
 ],
 "2017-06-20": [
@@ -692,7 +692,7 @@
 "St. Paulinus of Nola, Bishop & Confessor"
 ],
 "2017-06-23": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Sacred Heart of Jesus"
 ],
 "2017-06-24": [
@@ -712,11 +712,11 @@
 "Tuesday after Third Sunday after Pentecost"
 ],
 "2017-06-28": [
-"vigil of peter and paul",
+"vigil of peter paul",
 "Vigil of Ss Peter and Paul"
 ],
 "2017-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2017-06-30": [
@@ -724,7 +724,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2017-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2017-07-02": [
@@ -740,7 +740,7 @@
 "Tuesday after Fourth Sunday after Pentecost"
 ],
 "2017-07-05": [
-"anthony mary zaccariah",
+"anthony mary zaccaria",
 "St. Anthony Mary Zaccariah, Confessor"
 ],
 "2017-07-06": [
@@ -780,7 +780,7 @@
 "St. Bonaventure, Bishop, Confessor & Doctor"
 ],
 "2017-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2017-07-16": [
@@ -864,11 +864,11 @@
 "St. Dominic, Confessor"
 ],
 "2017-08-05": [
-"our lady of the snows",
+"dedication of mary of the snows",
 "Our Lady of the Snows, a/k/a The Dedication of the Basilica of St. Mary Major"
 ],
 "2017-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord N.B. On Sundays"
 ],
 "2017-08-07": [
@@ -876,7 +876,7 @@
 "St. Cajetan, Confessor"
 ],
 "2017-08-08": [
-"john mary vianney",
+"jean marie vianney",
 "St. John Mary Vianney, Confessor"
 ],
 "2017-08-09": [
@@ -888,8 +888,8 @@
 "St. Laurence, Deacon and Martyr"
 ],
 "2017-08-11": [
-"feria|eighth sunday after pentecost+1|friday",
-"Friday after Eighth Sunday after Pentecost (+1 wk)"
+"feria|ninth sunday after pentecost|friday",
+"Friday after Ninth Sunday after Pentecost"
 ],
 "2017-08-12": [
 "clare",
@@ -904,7 +904,7 @@
 "Vigil of the Assumption"
 ],
 "2017-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2017-08-16": [
@@ -932,7 +932,7 @@
 "St. Jane Frances de Chantal, Widow"
 ],
 "2017-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "The Immaculate Heart of Mary"
 ],
 "2017-08-23": [
@@ -948,7 +948,7 @@
 "St. Louis IX, King and Confessor"
 ],
 "2017-08-26": [
-"votive mass saturday of our lady",
+"saturday of our lady",
 "Votive Mass: Saturday of Our Lady"
 ],
 "2017-08-27": [
@@ -988,7 +988,7 @@
 "Monday after Thirteenth Sunday after Pentecost"
 ],
 "2017-09-05": [
-"lawrence justinian",
+"laurence justinian",
 "St. Lawrence Justinian, Bishop & Confessor"
 ],
 "2017-09-06": [
@@ -1004,7 +1004,7 @@
 "Nativity of the Blessed Virgin Mary"
 ],
 "2017-09-09": [
-"votive mass saturday of our lady",
+"saturday of our lady",
 "Votive Mass: Saturday of Our Lady"
 ],
 "2017-09-10": [
@@ -1044,11 +1044,11 @@
 "St. Joseph of Cupertino, Confessor"
 ],
 "2017-09-19": [
-"januarius and companions",
+"januarius",
 "St. Januarius and Companions, Martyrs"
 ],
 "2017-09-20": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2017-09-21": [
@@ -1056,11 +1056,11 @@
 "St. Matthew, Apostle & Evangelist"
 ],
 "2017-09-22": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2017-09-23": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2017-09-24": [
@@ -1076,7 +1076,7 @@
 "Tuesday after Sixteenth Sunday after Pentecost"
 ],
 "2017-09-27": [
-"cosmas and damian",
+"cosmas damian",
 "Ss Cosmas and Damian, Martyrs"
 ],
 "2017-09-28": [
@@ -1100,7 +1100,7 @@
 "Holy Guardian Angels"
 ],
 "2017-10-03": [
-"theresa of the infant jesus",
+"therese of the child jesus",
 "St. Theresa of the Infant Jesus, Virgin & Doctor"
 ],
 "2017-10-04": [
@@ -1132,7 +1132,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2017-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2017-10-12": [
@@ -1140,11 +1140,11 @@
 "Thursday after Eighteenth Sunday after Pentecost"
 ],
 "2017-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King"
 ],
 "2017-10-14": [
-"callistus i",
+"calistus i",
 "St. Callistus I, Pope & Martyr"
 ],
 "2017-10-15": [
@@ -1156,11 +1156,11 @@
 "St. Hedwig, Widow"
 ],
 "2017-10-17": [
-"margaret mary alacocque",
+"margaret mary alacoque",
 "St. Margaret Mary Alacocque, Virgin"
 ],
 "2017-10-18": [
-"luke the evangelist",
+"luke",
 "St. Luke the Evangelist"
 ],
 "2017-10-19": [
@@ -1172,7 +1172,7 @@
 "St. John Cantius, Confessor"
 ],
 "2017-10-21": [
-"votive mass saturday of our lady",
+"saturday of our lady",
 "Votive Mass: Saturday of Our Lady"
 ],
 "2017-10-22": [
@@ -1204,16 +1204,16 @@
 "Ss Simon and Jude, Apostles"
 ],
 "2017-10-29": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2017-10-30": [
-"feria|twentieth sunday after pentecost+1|monday",
-"Monday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|monday",
+"Monday after Twenty-First Sunday after Pentecost"
 ],
 "2017-10-31": [
-"feria|twentieth sunday after pentecost+1|tuesday",
-"Tuesday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|tuesday",
+"Tuesday after Twenty-First Sunday after Pentecost"
 ],
 "2017-11-01": [
 "all saints",
@@ -1224,8 +1224,8 @@
 "Commemoration of All Souls, First Mass"
 ],
 "2017-11-03": [
-"feria|twentieth sunday after pentecost+1|friday",
-"Friday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|friday",
+"Friday after Twenty-First Sunday after Pentecost"
 ],
 "2017-11-04": [
 "charles borromeo",
@@ -1284,7 +1284,7 @@
 "St. Gregory the Wonderworker, Bishop & Confessor"
 ],
 "2017-11-18": [
-"dedication of the basilicas of peter and paul",
+"dedication of the basilicas of peter paul",
 "Dedication of the Basilicas of Ss Peter and Paul"
 ],
 "2017-11-19": [
@@ -1316,19 +1316,19 @@
 "St. Catherine of Alexandria, Virgin & Martyr"
 ],
 "2017-11-26": [
-"twenty fourth and last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2017-11-27": [
-"feria|twenty fourth and last sunday after pentecost|monday",
+"feria|last sunday after pentecost|monday",
 "Monday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2017-11-28": [
-"feria|twenty fourth and last sunday after pentecost|tuesday",
+"feria|last sunday after pentecost|tuesday",
 "Tuesday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2017-11-29": [
-"feria|twenty fourth and last sunday after pentecost|wednesday",
+"feria|last sunday after pentecost|wednesday",
 "Wednesday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2017-11-30": [
@@ -1336,11 +1336,11 @@
 "St. Andrew, Apostle"
 ],
 "2017-12-01": [
-"feria|twenty fourth and last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2017-12-02": [
-"vivian",
+"bibiana",
 "St. Vivian, Virgin & Martyr"
 ],
 "2017-12-03": [
@@ -1404,15 +1404,15 @@
 "Third Sunday of Advent"
 ],
 "2017-12-18": [
-"greater feria of advent",
+"greater feria of advent|12-18",
 "Greater Feria of Advent"
 ],
 "2017-12-19": [
-"greater feria of advent",
+"greater feria of advent|12-19",
 "Greater Feria of Advent"
 ],
 "2017-12-20": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2017-12-21": [
@@ -1420,11 +1420,11 @@
 "St. Thomas, Apostle"
 ],
 "2017-12-22": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2017-12-23": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2017-12-24": [
@@ -1432,7 +1432,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2017-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight 2. The Nativity of Our Lord, Second Mass at Dawn 3. The Nativity of Our Lord, Third Mass during the day"
 ],
 "2017-12-26": [
@@ -1440,7 +1440,7 @@
 "St. Stephen, Deacon & Protomartyr"
 ],
 "2017-12-27": [
-"john the evangelist",
+"john",
 "St. John the Evangelist, Apostle"
 ],
 "2017-12-28": [
@@ -1460,11 +1460,11 @@
 "Sunday in the Octave of Christmas"
 ],
 "2018-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of The Lord"
 ],
 "2018-01-02": [
-"holy name of jesus",
+"most holy name of jesus",
 "Holy Name of Jesus"
 ],
 "2018-01-03": [
@@ -1480,11 +1480,11 @@
 "Friday after Sunday in the Octave of Christmas"
 ],
 "2018-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2018-01-07": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2018-01-08": [
@@ -1548,7 +1548,7 @@
 "Ss. Vincent & Anastasius, Martyrs"
 ],
 "2018-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort"
 ],
 "2018-01-24": [
@@ -1664,7 +1664,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2018-02-21": [
-"ember wednesday of lent",
+"ember|lent|wednesday",
 "Ember Wednesday of Lent"
 ],
 "2018-02-22": [
@@ -1672,7 +1672,7 @@
 "Chair of St. Peter"
 ],
 "2018-02-23": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2018-02-24": [
@@ -1804,7 +1804,7 @@
 "Tuesday of Holy Week"
 ],
 "2018-03-28": [
-"wednesday of holy week office of tenebr",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebræ"
 ],
 "2018-03-29": [
@@ -1816,7 +1816,7 @@
 "Good Friday, Mass of the Presanctified"
 ],
 "2018-03-31": [
-"easter vigil mass",
+"holy saturday",
 "Easter Vigil Mass"
 ],
 "2018-04-01": [
@@ -1848,15 +1848,15 @@
 "Easter Saturday"
 ],
 "2018-04-08": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2018-04-09": [
-"the annunciation of the virgin mary",
+"annunciation of the virgin mary",
 "The Annunciation of the Blessed Virgin Mary"
 ],
 "2018-04-10": [
-"feria|divine mercy sunday|tuesday",
+"feria|dominica in albis|tuesday",
 "Tuesday after Divine Mercy Sunday"
 ],
 "2018-04-11": [
@@ -1864,7 +1864,7 @@
 "St. Leo the Great, Pope, Confessor & Doctor"
 ],
 "2018-04-12": [
-"feria|divine mercy sunday|thursday",
+"feria|dominica in albis|thursday",
 "Thursday after Divine Mercy Sunday"
 ],
 "2018-04-13": [
@@ -1976,7 +1976,7 @@
 "Vigil of the Ascension"
 ],
 "2018-05-10": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of The Lord"
 ],
 "2018-05-11": [
@@ -2000,7 +2000,7 @@
 "St. Jean Baptiste de la Salle, Confessor"
 ],
 "2018-05-16": [
-"ubaldus",
+"ubald",
 "St. Ubaldus, Bishop & Confessor"
 ],
 "2018-05-17": [
@@ -2012,7 +2012,7 @@
 "St. Venantius, Martyr"
 ],
 "2018-05-19": [
-"vigil of pentecost",
+"vigil mass of pentecost",
 "Vigil of Pentecost"
 ],
 "2018-05-20": [
@@ -2028,7 +2028,7 @@
 "Pentecost Tuesday"
 ],
 "2018-05-23": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2018-05-24": [
@@ -2036,11 +2036,11 @@
 "Pentecost Thursday"
 ],
 "2018-05-25": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2018-05-26": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2018-05-27": [
@@ -2092,7 +2092,7 @@
 "Thursday after Second Sunday after Pentecost"
 ],
 "2018-06-08": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2018-06-09": [
@@ -2136,7 +2136,7 @@
 "St. Ephrem of Syria, Deacon, Confessor & Doctor"
 ],
 "2018-06-19": [
-"julia of falconieri",
+"juliana falconieri",
 "St. Julia of Falconieri, Virgin"
 ],
 "2018-06-20": [
@@ -2168,15 +2168,15 @@
 "Ss John & Paul, Martyrs"
 ],
 "2018-06-27": [
-"feria|fourth sunday after pentecost+1|wednesday",
-"Wednesday after Fourth Sunday after Pentecost (+1 wk)"
+"feria|fifth sunday after pentecost|wednesday",
+"Wednesday after Fifth Sunday after Pentecost"
 ],
 "2018-06-28": [
-"vigil of peter and paul",
+"vigil of peter paul",
 "Vigil of Ss Peter and Paul"
 ],
 "2018-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2018-06-30": [
@@ -2184,7 +2184,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2018-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2018-07-02": [
@@ -2196,11 +2196,11 @@
 "St. Irenaeus, Bishop & Martyr"
 ],
 "2018-07-04": [
-"feria|fourth sunday after pentecost+2|wednesday",
-"Wednesday after Fourth Sunday after Pentecost (+2 wk)"
+"feria|sixth sunday after pentecost|wednesday",
+"Wednesday after Sixth Sunday after Pentecost"
 ],
 "2018-07-05": [
-"anthony mary zaccariah",
+"anthony mary zaccaria",
 "St. Anthony Mary Zaccariah, Confessor"
 ],
 "2018-07-06": [
@@ -2328,7 +2328,7 @@
 "Eleventh Sunday after Pentecost"
 ],
 "2018-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2018-08-07": [
@@ -2336,7 +2336,7 @@
 "St. Cajetan, Confessor"
 ],
 "2018-08-08": [
-"john mary vianney",
+"jean marie vianney",
 "St. John Mary Vianney, Confessor"
 ],
 "2018-08-09": [
@@ -2364,7 +2364,7 @@
 "Vigil of the Assumption"
 ],
 "2018-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2018-08-16": [
@@ -2392,7 +2392,7 @@
 "St. Jane Frances de Chantal, Widow"
 ],
 "2018-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2018-08-23": [
@@ -2448,7 +2448,7 @@
 "Tuesday after Fifteenth Sunday after Pentecost"
 ],
 "2018-09-05": [
-"lawrence justinian",
+"laurence justinian",
 "St. Lawrence Justinian, Bishop & Confessor"
 ],
 "2018-09-06": [
@@ -2504,7 +2504,7 @@
 "St. Joseph of Cupertino, Confessor"
 ],
 "2018-09-19": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2018-09-20": [
@@ -2516,7 +2516,7 @@
 "St. Matthew, Apostle & Evangelist"
 ],
 "2018-09-22": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2018-09-23": [
@@ -2536,7 +2536,7 @@
 "Wednesday after Eighteenth Sunday after Pentecost"
 ],
 "2018-09-27": [
-"cosmas and damian",
+"cosmas damian",
 "Ss Cosmas and Damian, Martyrs"
 ],
 "2018-09-28": [
@@ -2560,7 +2560,7 @@
 "Holy Guardian Angels"
 ],
 "2018-10-03": [
-"theresa of the infant jesus",
+"therese of the child jesus",
 "St. Theresa of the Infant Jesus, Virgin & Doctor"
 ],
 "2018-10-04": [
@@ -2592,7 +2592,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2018-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2018-10-12": [
@@ -2600,7 +2600,7 @@
 "Friday after Twentieth Sunday after Pentecost"
 ],
 "2018-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King"
 ],
 "2018-10-14": [
@@ -2616,11 +2616,11 @@
 "St. Hedwig, Widow"
 ],
 "2018-10-17": [
-"margaret mary alacocque",
+"margaret mary alacoque",
 "St. Margaret Mary Alacocque, Virgin"
 ],
 "2018-10-18": [
-"luke the evangelist",
+"luke",
 "St. Luke the Evangelist"
 ],
 "2018-10-19": [
@@ -2660,20 +2660,20 @@
 "Saturday of Our Lady"
 ],
 "2018-10-28": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2018-10-29": [
-"feria|twenty second sunday after pentecost+1|monday",
-"Monday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|monday",
+"Monday after Twenty-Third Sunday after Pentecost"
 ],
 "2018-10-30": [
-"feria|twenty second sunday after pentecost+1|tuesday",
-"Tuesday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|tuesday",
+"Tuesday after Twenty-Third Sunday after Pentecost"
 ],
 "2018-10-31": [
-"feria|twenty second sunday after pentecost+1|wednesday",
-"Wednesday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|wednesday",
+"Wednesday after Twenty-Third Sunday after Pentecost"
 ],
 "2018-11-01": [
 "all saints",
@@ -2772,7 +2772,7 @@
 "St. John of the Cross, Confessor & Doctor"
 ],
 "2018-11-25": [
-"twenty fourth or last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2018-11-26": [
@@ -2780,15 +2780,15 @@
 "St. Sylvester, Abbot"
 ],
 "2018-11-27": [
-"feria|twenty fourth or last sunday after pentecost|tuesday",
+"feria|last sunday after pentecost|tuesday",
 "Tuesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2018-11-28": [
-"feria|twenty fourth or last sunday after pentecost|wednesday",
+"feria|last sunday after pentecost|wednesday",
 "Wednesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2018-11-29": [
-"feria|twenty fourth or last sunday after pentecost|thursday",
+"feria|last sunday after pentecost|thursday",
 "Thursday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2018-11-30": [
@@ -2860,19 +2860,19 @@
 "Third Sunday of Advent"
 ],
 "2018-12-17": [
-"greater feria of advent",
+"greater feria of advent|12-17",
 "Greater Feria of Advent"
 ],
 "2018-12-18": [
-"greater feria of advent",
+"greater feria of advent|12-18",
 "Greater Feria of Advent"
 ],
 "2018-12-19": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2018-12-20": [
-"greater feria of advent",
+"greater feria of advent|12-20",
 "Greater Feria of Advent"
 ],
 "2018-12-21": [
@@ -2880,7 +2880,7 @@
 "St. Thomas, Apostle"
 ],
 "2018-12-22": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2018-12-23": [
@@ -2892,7 +2892,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2018-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2018-12-26": [
@@ -2900,7 +2900,7 @@
 "St. Stephen, Deacon & Protomartyr"
 ],
 "2018-12-27": [
-"john the evangelist",
+"john",
 "St. John the Evangelist, Apostle"
 ],
 "2018-12-28": [
@@ -2920,11 +2920,11 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2019-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2019-01-02": [
-"holy name of jesus",
+"most holy name of jesus",
 "Holy Name of Jesus"
 ],
 "2019-01-03": [
@@ -2940,7 +2940,7 @@
 "Saturday of Our Lady"
 ],
 "2019-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2019-01-07": [
@@ -2968,7 +2968,7 @@
 "Saturday of Our Lady"
 ],
 "2019-01-13": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2019-01-14": [
@@ -3008,7 +3008,7 @@
 "Ss. Vincent & Anastasius, Martyrs"
 ],
 "2019-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort"
 ],
 "2019-01-24": [
@@ -3204,7 +3204,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2019-03-13": [
-"ember wednesday in lent",
+"ember|lent|wednesday",
 "Ember Wednesday in Lent"
 ],
 "2019-03-14": [
@@ -3212,11 +3212,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2019-03-15": [
-"ember friday in lent",
+"ember|lent|friday",
 "Ember Friday in Lent"
 ],
 "2019-03-16": [
-"ember saturday in lent",
+"ember|lent|saturday",
 "Ember Saturday in Lent"
 ],
 "2019-03-17": [
@@ -3344,7 +3344,7 @@
 "Tuesday of Holy Week"
 ],
 "2019-04-17": [
-"wednesday of holy week office of tenebrae",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebrae"
 ],
 "2019-04-18": [
@@ -3356,7 +3356,7 @@
 "Good Friday, Mass of the Presanctified"
 ],
 "2019-04-20": [
-"easter vigil mass",
+"holy saturday",
 "Easter Vigil Mass"
 ],
 "2019-04-21": [
@@ -3388,7 +3388,7 @@
 "Easter Saturday"
 ],
 "2019-04-28": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2019-04-29": [
@@ -3408,7 +3408,7 @@
 "St. Athanasius, Bishop, Confessor & Doctor"
 ],
 "2019-05-03": [
-"feria|divine mercy sunday|friday",
+"feria|dominica in albis|friday",
 "Friday after Divine Mercy Sunday"
 ],
 "2019-05-04": [
@@ -3460,7 +3460,7 @@
 "St. Jean Baptiste de la Salle, Confessor"
 ],
 "2019-05-16": [
-"ubaldus",
+"ubald",
 "St. Ubaldus, Bishop & Confessor"
 ],
 "2019-05-17": [
@@ -3516,7 +3516,7 @@
 "Vigil of the Ascension"
 ],
 "2019-05-30": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2019-05-31": [
@@ -3560,27 +3560,27 @@
 "Pentecost Sunday"
 ],
 "2019-06-10": [
-"monday in the octave of pentecost",
+"pentecost monday",
 "Monday in the Octave of Pentecost"
 ],
 "2019-06-11": [
-"tuesday in the octave of pentecost",
+"pentecost tuesday",
 "Tuesday in the Octave of Pentecost"
 ],
 "2019-06-12": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2019-06-13": [
-"thursday in the octave of pentecost",
+"pentecost thursday",
 "Thursday in the Octave of Pentecost"
 ],
 "2019-06-14": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2019-06-15": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2019-06-16": [
@@ -3596,7 +3596,7 @@
 "St. Ephrem of Syria, Deacon, Confessor & Doctor"
 ],
 "2019-06-19": [
-"julia of falconieri",
+"juliana falconieri",
 "St. Julia of Falconieri, Virgin"
 ],
 "2019-06-20": [
@@ -3632,11 +3632,11 @@
 "Thursday after Second Sunday after Pentecost"
 ],
 "2019-06-28": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2019-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2019-06-30": [
@@ -3644,7 +3644,7 @@
 "Third Sunday after Pentecost"
 ],
 "2019-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2019-07-02": [
@@ -3660,7 +3660,7 @@
 "Thursday after Third Sunday after Pentecost"
 ],
 "2019-07-05": [
-"anthony mary zaccariah",
+"anthony mary zaccaria",
 "St. Anthony Mary Zaccariah, Confessor"
 ],
 "2019-07-06": [
@@ -3700,11 +3700,11 @@
 "Fifth Sunday after Pentecost"
 ],
 "2019-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2019-07-16": [
-"our lady of mount carmel or in carmelite churches solemn commemoration of our lady of mount carmel",
+"our lady of mount carmel",
 "Our Lady of Mount Carmel or in Carmelite churches: Solemn Commemoration of Our Lady of Mount Carmel"
 ],
 "2019-07-17": [
@@ -3784,11 +3784,11 @@
 "Eighth Sunday after Pentecost"
 ],
 "2019-08-05": [
-"dedication of the basilica of mary major",
+"dedication of mary of the snows",
 "Dedication of the Basilica of St. Mary Major"
 ],
 "2019-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2019-08-07": [
@@ -3796,7 +3796,7 @@
 "St. Cajetan, Confessor"
 ],
 "2019-08-08": [
-"john mary vianney",
+"jean marie vianney",
 "St. John Mary Vianney, Confessor"
 ],
 "2019-08-09": [
@@ -3824,7 +3824,7 @@
 "Vigil of the Assumption"
 ],
 "2019-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2019-08-16": [
@@ -3852,7 +3852,7 @@
 "St. Jane Frances de Chantal, Widow"
 ],
 "2019-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2019-08-23": [
@@ -3896,7 +3896,7 @@
 "Twelfth Sunday after Pentecost"
 ],
 "2019-09-02": [
-"stephan of hungary",
+"stephen of hungary",
 "St. Stephan of Hungary, King & Confessor"
 ],
 "2019-09-03": [
@@ -3908,7 +3908,7 @@
 "Wednesday after Twelfth Sunday after Pentecost"
 ],
 "2019-09-05": [
-"lawrence justinian",
+"laurence justinian",
 "St. Lawrence Justinian, Bishop & Confessor"
 ],
 "2019-09-06": [
@@ -3936,7 +3936,7 @@
 "Wednesday after Thirteenth Sunday after Pentecost"
 ],
 "2019-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2019-09-13": [
@@ -3960,7 +3960,7 @@
 "Tuesday after Fourteenth Sunday after Pentecost"
 ],
 "2019-09-18": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2019-09-19": [
@@ -3968,7 +3968,7 @@
 "St. Januarius, Bishop & Companions, Martyrs"
 ],
 "2019-09-20": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2019-09-21": [
@@ -3996,7 +3996,7 @@
 "Thursday after Fifteenth Sunday after Pentecost"
 ],
 "2019-09-27": [
-"cosmas and damian",
+"cosmas damian",
 "Ss Cosmas and Damian, Martyrs"
 ],
 "2019-09-28": [
@@ -4012,15 +4012,15 @@
 "St. Jerome, Priest, Confessor & Doctor"
 ],
 "2019-10-01": [
-"feria|fifteenth sunday after pentecost+1|tuesday",
-"Tuesday after Fifteenth Sunday after Pentecost (+1 wk)"
+"feria|sixteenth sunday after pentecost|tuesday",
+"Tuesday after Sixteenth Sunday after Pentecost"
 ],
 "2019-10-02": [
 "holy guardian angels",
 "Holy Guardian Angels"
 ],
 "2019-10-03": [
-"theresa of the infant jesus",
+"therese of the child jesus",
 "St. Theresa of the Infant Jesus, Virgin & Doctor"
 ],
 "2019-10-04": [
@@ -4052,7 +4052,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2019-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2019-10-12": [
@@ -4076,11 +4076,11 @@
 "St. Hedwig, Widow"
 ],
 "2019-10-17": [
-"margaret mary alacocque",
+"margaret mary alacoque",
 "St. Margaret Mary Alacocque, Virgin"
 ],
 "2019-10-18": [
-"luke the evangelist",
+"luke",
 "St. Luke the Evangelist"
 ],
 "2019-10-19": [
@@ -4116,7 +4116,7 @@
 "Saturday of Our Lady"
 ],
 "2019-10-27": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2019-10-28": [
@@ -4124,16 +4124,16 @@
 "Ss Simon & Jude, Apostles"
 ],
 "2019-10-29": [
-"feria|nineteenth sunday after pentecost+1|tuesday",
-"Tuesday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|tuesday",
+"Tuesday after Twentieth Sunday after Pentecost"
 ],
 "2019-10-30": [
-"feria|nineteenth sunday after pentecost+1|wednesday",
-"Wednesday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|wednesday",
+"Wednesday after Twentieth Sunday after Pentecost"
 ],
 "2019-10-31": [
-"feria|nineteenth sunday after pentecost+1|thursday",
-"Thursday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|thursday",
+"Thursday after Twentieth Sunday after Pentecost"
 ],
 "2019-11-01": [
 "all saints",
@@ -4204,7 +4204,7 @@
 "Twenty-Third Sunday after Pentecost"
 ],
 "2019-11-18": [
-"dedication of the basilica of peter paul",
+"dedication of the basilicas of peter paul",
 "Dedication of the Basilica of Ss Peter & Paul"
 ],
 "2019-11-19": [
@@ -4228,7 +4228,7 @@
 "St. Clement I, Pope & Martyr"
 ],
 "2019-11-24": [
-"twenty fourth or last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2019-11-25": [
@@ -4240,15 +4240,15 @@
 "St. Sylvester, Abbot"
 ],
 "2019-11-27": [
-"feria|twenty fourth or last sunday after pentecost|wednesday",
+"feria|last sunday after pentecost|wednesday",
 "Wednesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2019-11-28": [
-"feria|twenty fourth or last sunday after pentecost|thursday",
+"feria|last sunday after pentecost|thursday",
 "Thursday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2019-11-29": [
-"feria|twenty fourth or last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2019-11-30": [
@@ -4288,28 +4288,28 @@
 "Immaculate Conception of the Blessed Virgin Mary"
 ],
 "2019-12-09": [
-"feria|first sunday of advent+1|monday",
-"Monday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|monday",
+"Monday after Second Sunday of Advent"
 ],
 "2019-12-10": [
-"feria|first sunday of advent+1|tuesday",
-"Tuesday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|tuesday",
+"Tuesday after Second Sunday of Advent"
 ],
 "2019-12-11": [
 "damasus i",
 "St. Damasus I, Pope & Confessor"
 ],
 "2019-12-12": [
-"feria|first sunday of advent+1|thursday",
-"Thursday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|thursday",
+"Thursday after Second Sunday of Advent"
 ],
 "2019-12-13": [
 "lucy",
 "St. Lucy, Virgin & Martyr"
 ],
 "2019-12-14": [
-"feria|first sunday of advent+1|saturday",
-"Saturday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|saturday",
+"Saturday after Second Sunday of Advent"
 ],
 "2019-12-15": [
 "third sunday of advent",
@@ -4320,19 +4320,19 @@
 "St. Eusebius, Bishop & Martyr"
 ],
 "2019-12-17": [
-"greater feria of advent",
+"greater feria of advent|12-17",
 "Greater Feria of Advent"
 ],
 "2019-12-18": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2019-12-19": [
-"greater feria of advent",
+"greater feria of advent|12-19",
 "Greater Feria of Advent"
 ],
 "2019-12-20": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2019-12-21": [
@@ -4344,7 +4344,7 @@
 "Fourth Sunday of Advent"
 ],
 "2019-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2019-12-24": [
@@ -4352,7 +4352,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2019-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2019-12-26": [
@@ -4380,7 +4380,7 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2020-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2020-01-02": [
@@ -4396,11 +4396,11 @@
 "Saturday of Our Lady"
 ],
 "2020-01-05": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2020-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2020-01-07": [
@@ -4424,7 +4424,7 @@
 "Saturday of Our Lady"
 ],
 "2020-01-12": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2020-01-13": [
@@ -4468,7 +4468,7 @@
 "Ss. Vincent & Anastasius, Martyrs"
 ],
 "2020-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2020-01-24": [
@@ -4512,8 +4512,8 @@
 "Purification of the Blessed Virgin Mary"
 ],
 "2020-02-03": [
-"feria|third sunday after epiphany+1|monday",
-"Monday after Third Sunday after Epiphany (+1 wk)"
+"feria|fourth sunday after epiphany|monday",
+"Monday after Fourth Sunday after Epiphany"
 ],
 "2020-02-04": [
 "andrew corsini",
@@ -4632,7 +4632,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2020-03-04": [
-"ember wednesday in lent",
+"ember|lent|wednesday",
 "Ember Wednesday in Lent"
 ],
 "2020-03-05": [
@@ -4640,11 +4640,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2020-03-06": [
-"ember friday in lent",
+"ember|lent|friday",
 "Ember Friday in Lent"
 ],
 "2020-03-07": [
-"ember saturday in lent",
+"ember|lent|saturday",
 "Ember Saturday in Lent"
 ],
 "2020-03-08": [
@@ -4772,7 +4772,7 @@
 "Tuesday of Holy Week"
 ],
 "2020-04-08": [
-"wednesday of holy week office of tenebr",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebræ"
 ],
 "2020-04-09": [
@@ -4780,11 +4780,11 @@
 "Maundy Thursday"
 ],
 "2020-04-10": [
-"good friday office and mass of the presanctified",
+"good friday",
 "Good Friday Office and Mass of the Presanctified"
 ],
 "2020-04-11": [
-"easter vigil mass",
+"holy saturday",
 "Easter Vigil Mass"
 ],
 "2020-04-12": [
@@ -4816,11 +4816,11 @@
 "Easter Saturday"
 ],
 "2020-04-19": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2020-04-20": [
-"feria|divine mercy sunday|monday",
+"feria|dominica in albis|monday",
 "Monday after Divine Mercy Sunday"
 ],
 "2020-04-21": [
@@ -4832,7 +4832,7 @@
 "Ss. Soter & Caius, Popes & Martyrs"
 ],
 "2020-04-23": [
-"feria|divine mercy sunday|thursday",
+"feria|dominica in albis|thursday",
 "Thursday after Divine Mercy Sunday"
 ],
 "2020-04-24": [
@@ -4924,7 +4924,7 @@
 "St. Jean Baptiste de la Salle, Confessor"
 ],
 "2020-05-16": [
-"ubaldus",
+"ubald",
 "St. Ubaldus, Bishop & Confessor"
 ],
 "2020-05-17": [
@@ -4944,7 +4944,7 @@
 "Vigil of the Ascension"
 ],
 "2020-05-21": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2020-05-22": [
@@ -4996,7 +4996,7 @@
 "Pentecost Tuesday"
 ],
 "2020-06-03": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2020-06-04": [
@@ -5004,11 +5004,11 @@
 "Pentecost Thursday"
 ],
 "2020-06-05": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2020-06-06": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2020-06-07": [
@@ -5060,7 +5060,7 @@
 "St. Ephrem of Syria, Deacon, Confessor & Doctor"
 ],
 "2020-06-19": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2020-06-20": [
@@ -5100,7 +5100,7 @@
 "Fourth Sunday after Pentecost"
 ],
 "2020-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2020-06-30": [
@@ -5108,7 +5108,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2020-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2020-07-02": [
@@ -5164,11 +5164,11 @@
 "St. Bonaventure, Bishop, Confessor & Doctor"
 ],
 "2020-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2020-07-16": [
-"our lady of mount carmel or in carmelite churches solemn commemoration of our lady of mount carmel",
+"our lady of mount carmel",
 "Our Lady of Mount Carmel or in Carmelite churches: Solemn Commemoration of Our Lady of Mount Carmel"
 ],
 "2020-07-17": [
@@ -5252,7 +5252,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2020-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2020-08-07": [
@@ -5260,7 +5260,7 @@
 "St. Cajetan, Confessor"
 ],
 "2020-08-08": [
-"john mary vianney",
+"jean marie vianney",
 "St. John Mary Vianney, Confessor"
 ],
 "2020-08-09": [
@@ -5288,7 +5288,7 @@
 "Vigil of the Assumption"
 ],
 "2020-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2020-08-16": [
@@ -5316,7 +5316,7 @@
 "St. Jane Frances de Chantal, Widow"
 ],
 "2020-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2020-08-23": [
@@ -5360,7 +5360,7 @@
 "Tuesday after Thirteenth Sunday after Pentecost"
 ],
 "2020-09-02": [
-"stephan of hungary",
+"stephen of hungary",
 "St. Stephan of Hungary, King & Confessor"
 ],
 "2020-09-03": [
@@ -5372,7 +5372,7 @@
 "Friday after Thirteenth Sunday after Pentecost"
 ],
 "2020-09-05": [
-"lawrence justinian",
+"laurence justinian",
 "St. Lawrence Justinian, Bishop & Confessor"
 ],
 "2020-09-06": [
@@ -5400,7 +5400,7 @@
 "Friday after Fourteenth Sunday after Pentecost"
 ],
 "2020-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2020-09-13": [
@@ -5444,7 +5444,7 @@
 "St. Thomas of Villanova, Bishop & Confessor"
 ],
 "2020-09-23": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2020-09-24": [
@@ -5452,11 +5452,11 @@
 "Thursday after Sixteenth Sunday after Pentecost"
 ],
 "2020-09-25": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2020-09-26": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2020-09-27": [
@@ -5484,7 +5484,7 @@
 "Holy Guardian Angels"
 ],
 "2020-10-03": [
-"theresa of the infant jesus",
+"therese of the child jesus",
 "St. Theresa of the Infant Jesus, Virgin & Doctor"
 ],
 "2020-10-04": [
@@ -5524,7 +5524,7 @@
 "Monday after Nineteenth Sunday after Pentecost"
 ],
 "2020-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King"
 ],
 "2020-10-14": [
@@ -5540,7 +5540,7 @@
 "St. Hedwig, Widow"
 ],
 "2020-10-17": [
-"margaret mary alacocque",
+"margaret mary alacoque",
 "St. Margaret Mary Alacocque, Virgin"
 ],
 "2020-10-18": [
@@ -5572,28 +5572,28 @@
 "St. Raphael the Archangel"
 ],
 "2020-10-25": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2020-10-26": [
-"feria|twentieth sunday after pentecost+1|monday",
-"Monday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|monday",
+"Monday after Twenty-First Sunday after Pentecost"
 ],
 "2020-10-27": [
-"feria|twentieth sunday after pentecost+1|tuesday",
-"Tuesday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|tuesday",
+"Tuesday after Twenty-First Sunday after Pentecost"
 ],
 "2020-10-28": [
 "simon jude",
 "Ss Simon & Jude, Apostles"
 ],
 "2020-10-29": [
-"feria|twentieth sunday after pentecost+1|thursday",
-"Thursday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|thursday",
+"Thursday after Twenty-First Sunday after Pentecost"
 ],
 "2020-10-30": [
-"feria|twentieth sunday after pentecost+1|friday",
-"Friday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|friday",
+"Friday after Twenty-First Sunday after Pentecost"
 ],
 "2020-10-31": [
 "saturday of our lady",
@@ -5608,20 +5608,20 @@
 "Commemoration of All Souls, First Mass, With Rite of Absolution"
 ],
 "2020-11-03": [
-"feria|twentieth sunday after pentecost+2|tuesday",
-"Tuesday after Twentieth Sunday after Pentecost (+2 wk)"
+"feria|twenty second sunday after pentecost|tuesday",
+"Tuesday after Twenty-Second Sunday after Pentecost"
 ],
 "2020-11-04": [
 "charles borromeo",
 "St. Charles Borromeo, Bishop & Confessor"
 ],
 "2020-11-05": [
-"feria|twentieth sunday after pentecost+2|thursday",
-"Thursday after Twentieth Sunday after Pentecost (+2 wk)"
+"feria|twenty second sunday after pentecost|thursday",
+"Thursday after Twenty-Second Sunday after Pentecost"
 ],
 "2020-11-06": [
-"feria|twentieth sunday after pentecost+2|friday",
-"Friday after Twentieth Sunday after Pentecost (+2 wk)"
+"feria|twenty second sunday after pentecost|friday",
+"Friday after Twenty-Second Sunday after Pentecost"
 ],
 "2020-11-07": [
 "saturday of our lady",
@@ -5668,7 +5668,7 @@
 "St. Gregory the Wonderworker, Bishop & Confessor"
 ],
 "2020-11-18": [
-"dedication of the basilica of peter paul",
+"dedication of the basilicas of peter paul",
 "Dedication of the Basilica of Ss Peter & Paul"
 ],
 "2020-11-19": [
@@ -5684,7 +5684,7 @@
 "Presentation of the Blessed Virgin Mary"
 ],
 "2020-11-22": [
-"twenty fourth and last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2020-11-23": [
@@ -5704,7 +5704,7 @@
 "St. Sylvester, Abbot"
 ],
 "2020-11-27": [
-"feria|twenty fourth and last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2020-11-28": [
@@ -5780,19 +5780,19 @@
 "Tuesday after Third Sunday of Advent"
 ],
 "2020-12-16": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2020-12-17": [
-"greater feria of advent",
+"greater feria of advent|12-17",
 "Greater Feria of Advent"
 ],
 "2020-12-18": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2020-12-19": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2020-12-20": [
@@ -5804,11 +5804,11 @@
 "St. Thomas, Apostle"
 ],
 "2020-12-22": [
-"greater feria of advent",
+"greater feria of advent|12-22",
 "Greater Feria of Advent"
 ],
 "2020-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2020-12-24": [
@@ -5816,7 +5816,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2020-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2020-12-26": [
@@ -5844,7 +5844,7 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2021-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2021-01-02": [
@@ -5852,7 +5852,7 @@
 "Saturday after Sunday in the Octave of Christmas"
 ],
 "2021-01-03": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2021-01-04": [
@@ -5864,7 +5864,7 @@
 "Tuesday after Sunday in the Octave of Christmas (+1 wk)"
 ],
 "2021-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2021-01-07": [
@@ -5880,7 +5880,7 @@
 "Saturday of Our Lady"
 ],
 "2021-01-10": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2021-01-11": [
@@ -5932,7 +5932,7 @@
 "Ss Vincent & Anastasius, Martyrs"
 ],
 "2021-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2021-01-24": [
@@ -6068,11 +6068,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2021-02-26": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2021-02-27": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2021-02-28": [
@@ -6208,11 +6208,11 @@
 "Maundy Thursday"
 ],
 "2021-04-02": [
-"good friday office and mass of the presanctified",
+"good friday",
 "Good Friday Office and Mass of the Presanctified"
 ],
 "2021-04-03": [
-"solemn easter vigil and first mass of easter sunday",
+"holy saturday",
 "Solemn Easter Vigil and First Mass of Easter Sunday"
 ],
 "2021-04-04": [
@@ -6244,11 +6244,11 @@
 "Easter Saturday"
 ],
 "2021-04-11": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2021-04-12": [
-"feria|divine mercy sunday|monday",
+"feria|dominica in albis|monday",
 "Monday after Divine Mercy Sunday"
 ],
 "2021-04-13": [
@@ -6260,11 +6260,11 @@
 "St. Justin, Martyr"
 ],
 "2021-04-15": [
-"feria|divine mercy sunday|thursday",
+"feria|dominica in albis|thursday",
 "Thursday after Divine Mercy Sunday"
 ],
 "2021-04-16": [
-"feria|divine mercy sunday|friday",
+"feria|dominica in albis|friday",
 "Friday after Divine Mercy Sunday"
 ],
 "2021-04-17": [
@@ -6372,7 +6372,7 @@
 "Vigil of the Ascension"
 ],
 "2021-05-13": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2021-05-14": [
@@ -6388,7 +6388,7 @@
 "Sunday after the Ascension"
 ],
 "2021-05-17": [
-"pascal baylon",
+"paschal baylon",
 "St. Pascal Baylon, Confessor"
 ],
 "2021-05-18": [
@@ -6400,7 +6400,7 @@
 "St. Peter Celestine, Pope & Confessor"
 ],
 "2021-05-20": [
-"bernardine of sienna",
+"bernardine of siena",
 "St. Bernardine of Sienna, Confessor"
 ],
 "2021-05-21": [
@@ -6424,7 +6424,7 @@
 "Pentecost Tuesday"
 ],
 "2021-05-26": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2021-05-27": [
@@ -6432,11 +6432,11 @@
 "Pentecost Thursday"
 ],
 "2021-05-28": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2021-05-29": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2021-05-30": [
@@ -6444,7 +6444,7 @@
 "Trinity Sunday"
 ],
 "2021-05-31": [
-"queenship of mary",
+"queenship of the virgin mary",
 "Queenship of Mary"
 ],
 "2021-06-01": [
@@ -6488,7 +6488,7 @@
 "St. Margaret of Scotland, Queen & Widow"
 ],
 "2021-06-11": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2021-06-12": [
@@ -6520,7 +6520,7 @@
 "St. Ephrem of Syria, Deacon, Confessor & Doctor"
 ],
 "2021-06-19": [
-"julia falconieri",
+"juliana falconieri",
 "St. Julia Falconieri, Virgin"
 ],
 "2021-06-20": [
@@ -6556,11 +6556,11 @@
 "Fifth Sunday after Pentecost"
 ],
 "2021-06-28": [
-"vigil of saints peter and paul",
+"vigil of peter paul",
 "Vigil of Saints Peter and Paul"
 ],
 "2021-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2021-06-30": [
@@ -6568,7 +6568,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2021-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2021-07-02": [
@@ -6624,7 +6624,7 @@
 "St. Bonaventure, Bishop, Confessor & Doctor"
 ],
 "2021-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2021-07-16": [
@@ -6712,7 +6712,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2021-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2021-08-07": [
@@ -6748,7 +6748,7 @@
 "Vigil of the Assumption"
 ],
 "2021-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2021-08-16": [
@@ -6760,8 +6760,8 @@
 "St. Hyacinth, Confessor"
 ],
 "2021-08-18": [
-"feria|eleventh sunday after pentecost+1|wednesday",
-"Wednesday after Eleventh Sunday after Pentecost (+1 wk)"
+"feria|twelfth sunday after pentecost|wednesday",
+"Wednesday after Twelfth Sunday after Pentecost"
 ],
 "2021-08-19": [
 "john eudes",
@@ -6780,7 +6780,7 @@
 "Thirteenth Sunday after Pentecost"
 ],
 "2021-08-23": [
-"philip benize",
+"philip benizi",
 "St. Philip Benize, Confessor"
 ],
 "2021-08-24": [
@@ -6900,7 +6900,7 @@
 "St. Matthew, Apostle & Evangelist"
 ],
 "2021-09-22": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2021-09-23": [
@@ -6908,11 +6908,11 @@
 "St. Linus, Pope & Martyr"
 ],
 "2021-09-24": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2021-09-25": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2021-09-26": [
@@ -6976,7 +6976,7 @@
 "Twentieth Sunday after Pentecost"
 ],
 "2021-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2021-10-12": [
@@ -6984,7 +6984,7 @@
 "Tuesday after Twentieth Sunday after Pentecost"
 ],
 "2021-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King"
 ],
 "2021-10-14": [
@@ -7056,7 +7056,7 @@
 "Saturday of Our Lady"
 ],
 "2021-10-31": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2021-11-01": [
@@ -7068,16 +7068,16 @@
 "Commemoration of All Souls, First Mass, With Rite of Absolution"
 ],
 "2021-11-03": [
-"feria|twenty second sunday after pentecost+1|wednesday",
-"Wednesday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|wednesday",
+"Wednesday after Twenty-Third Sunday after Pentecost"
 ],
 "2021-11-04": [
 "charles borromeo",
 "St. Charles Borromeo, Bishop & Confessor"
 ],
 "2021-11-05": [
-"feria|twenty second sunday after pentecost+1|friday",
-"Friday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|friday",
+"Friday after Twenty-Third Sunday after Pentecost"
 ],
 "2021-11-06": [
 "saturday of our lady",
@@ -7140,7 +7140,7 @@
 "St. Felix of Valois, Confessor"
 ],
 "2021-11-21": [
-"twenty fourth or last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2021-11-22": [
@@ -7236,7 +7236,7 @@
 "Tuesday after Third Sunday of Advent"
 ],
 "2021-12-15": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2021-12-16": [
@@ -7244,11 +7244,11 @@
 "St. Eusebius, Bishop & Martyr"
 ],
 "2021-12-17": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2021-12-18": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2021-12-19": [
@@ -7256,7 +7256,7 @@
 "Fourth Sunday of Advent"
 ],
 "2021-12-20": [
-"greater feria of advent",
+"greater feria of advent|12-20",
 "Greater Feria of Advent"
 ],
 "2021-12-21": [
@@ -7264,11 +7264,11 @@
 "St. Thomas, Apostle"
 ],
 "2021-12-22": [
-"greater feria of advent",
+"greater feria of advent|12-22",
 "Greater Feria of Advent"
 ],
 "2021-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2021-12-24": [
@@ -7276,7 +7276,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2021-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2021-12-26": [
@@ -7304,11 +7304,11 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2022-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2022-01-02": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2022-01-03": [
@@ -7324,7 +7324,7 @@
 "Wednesday after Sunday in the Octave of Christmas (+1 wk)"
 ],
 "2022-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2022-01-07": [
@@ -7336,7 +7336,7 @@
 "Saturday of Our Lady"
 ],
 "2022-01-09": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2022-01-10": [
@@ -7572,7 +7572,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2022-03-09": [
-"ember wednesday",
+"ember|lent|wednesday",
 "Ember Wednesday"
 ],
 "2022-03-10": [
@@ -7580,11 +7580,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2022-03-11": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2022-03-12": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2022-03-13": [
@@ -7720,11 +7720,11 @@
 "Maundy Thursday"
 ],
 "2022-04-15": [
-"good friday office and mass of the presanctified",
+"good friday",
 "Good Friday Office and Mass of the Presanctified"
 ],
 "2022-04-16": [
-"solemn easter vigil and first mass of easter sunday",
+"holy saturday",
 "Solemn Easter Vigil and First Mass of Easter Sunday"
 ],
 "2022-04-17": [
@@ -7756,7 +7756,7 @@
 "Easter Saturday"
 ],
 "2022-04-24": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2022-04-25": [
@@ -7792,8 +7792,8 @@
 "St. Athanasius, Bishop & Doctor"
 ],
 "2022-05-03": [
-"feria|divine mercy sunday+1|tuesday",
-"Tuesday after Divine Mercy Sunday (+1 wk)"
+"feria|good shepherd sunday|tuesday",
+"Tuesday after Second Sunday after Easter"
 ],
 "2022-05-04": [
 "monica",
@@ -7804,8 +7804,8 @@
 "St. Pius V, Pope & Confessor"
 ],
 "2022-05-06": [
-"feria|divine mercy sunday+1|friday",
-"Friday after Divine Mercy Sunday (+1 wk)"
+"feria|good shepherd sunday|friday",
+"Friday after Second Sunday after Easter"
 ],
 "2022-05-07": [
 "stanislaus",
@@ -7860,7 +7860,7 @@
 "St. Peter Celestine, Pope & Confessor"
 ],
 "2022-05-20": [
-"bernardine of sienna",
+"bernardine of siena",
 "St. Bernardine of Sienna, Confessor"
 ],
 "2022-05-21": [
@@ -7884,7 +7884,7 @@
 "Vigil of the Ascension"
 ],
 "2022-05-26": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2022-05-27": [
@@ -7904,7 +7904,7 @@
 "Monday after Sunday after the Ascension"
 ],
 "2022-05-31": [
-"queenship of mary",
+"queenship of the virgin mary",
 "Queenship of Mary"
 ],
 "2022-06-01": [
@@ -7936,7 +7936,7 @@
 "Pentecost Tuesday"
 ],
 "2022-06-08": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2022-06-09": [
@@ -7944,11 +7944,11 @@
 "Pentecost Thursday"
 ],
 "2022-06-10": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2022-06-11": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2022-06-12": [
@@ -8000,7 +8000,7 @@
 "Thursday after Second Sunday after Pentecost"
 ],
 "2022-06-24": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2022-06-25": [
@@ -8016,11 +8016,11 @@
 "Monday after Third Sunday after Pentecost"
 ],
 "2022-06-28": [
-"vigil of saints peter and paul",
+"vigil of peter paul",
 "Vigil of Saints Peter and Paul"
 ],
 "2022-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2022-06-30": [
@@ -8028,7 +8028,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2022-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2022-07-02": [
@@ -8084,7 +8084,7 @@
 "St. Bonaventure, Bishop, Confessor & Doctor"
 ],
 "2022-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2022-07-16": [
@@ -8172,7 +8172,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2022-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2022-08-07": [
@@ -8208,7 +8208,7 @@
 "Tenth Sunday after Pentecost"
 ],
 "2022-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2022-08-16": [
@@ -8236,11 +8236,11 @@
 "Eleventh Sunday after Pentecost"
 ],
 "2022-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2022-08-23": [
-"philip benize",
+"philip benizi",
 "St. Philip Benize, Confessor"
 ],
 "2022-08-24": [
@@ -8264,7 +8264,7 @@
 "Twelfth Sunday after Pentecost"
 ],
 "2022-08-29": [
-"the beheading of john the baptist",
+"beheading of john the baptist",
 "The Beheading of St. John the Baptist"
 ],
 "2022-08-30": [
@@ -8320,7 +8320,7 @@
 "Fourteenth Sunday after Pentecost"
 ],
 "2022-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2022-09-13": [
@@ -8364,11 +8364,11 @@
 "St. Thomas of Villanova, Bishop & Confessor"
 ],
 "2022-09-23": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2022-09-24": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2022-09-25": [
@@ -8404,7 +8404,7 @@
 "Seventeenth Sunday after Pentecost"
 ],
 "2022-10-03": [
-"theresa of the child jesus",
+"therese of the child jesus",
 "St. Theresa of the Child Jesus, Virgin & Doctor"
 ],
 "2022-10-04": [
@@ -8436,7 +8436,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2022-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2022-10-12": [
@@ -8444,7 +8444,7 @@
 "Wednesday after Eighteenth Sunday after Pentecost"
 ],
 "2022-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King"
 ],
 "2022-10-14": [
@@ -8512,12 +8512,12 @@
 "Saturday of Our Lady"
 ],
 "2022-10-30": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2022-10-31": [
-"feria|twentieth sunday after pentecost+1|monday",
-"Monday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|monday",
+"Monday after Twenty-First Sunday after Pentecost"
 ],
 "2022-11-01": [
 "all saints",
@@ -8528,8 +8528,8 @@
 "Commemoration of All Souls, First Mass, With Rite of Absolution"
 ],
 "2022-11-03": [
-"feria|twentieth sunday after pentecost+1|thursday",
-"Thursday after Twentieth Sunday after Pentecost (+1 wk)"
+"feria|twenty first sunday after pentecost|thursday",
+"Thursday after Twenty-First Sunday after Pentecost"
 ],
 "2022-11-04": [
 "charles borromeo",
@@ -8584,7 +8584,7 @@
 "St. Gertrude the Great, Virgin"
 ],
 "2022-11-17": [
-"gregory thaumaturgus",
+"gregory the wonderworker",
 "St. Gregory Thaumaturgus"
 ],
 "2022-11-18": [
@@ -8596,11 +8596,11 @@
 "St. Elizabeth of Hungary, Widow"
 ],
 "2022-11-20": [
-"twenty fourth and last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2022-11-21": [
-"the presentation of the virgin mary",
+"presentation of the virgin mary",
 "The Presentation of the Blessed Virgin Mary"
 ],
 "2022-11-22": [
@@ -8692,7 +8692,7 @@
 "St. Lucy, Virgin & Martyr"
 ],
 "2022-12-14": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2022-12-15": [
@@ -8700,11 +8700,11 @@
 "Thursday after Third Sunday of Advent"
 ],
 "2022-12-16": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2022-12-17": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2022-12-18": [
@@ -8712,11 +8712,11 @@
 "Fourth Sunday of Advent"
 ],
 "2022-12-19": [
-"greater feria of advent",
+"greater feria of advent|12-19",
 "Greater Feria of Advent"
 ],
 "2022-12-20": [
-"greater feria of advent",
+"greater feria of advent|12-20",
 "Greater Feria of Advent"
 ],
 "2022-12-21": [
@@ -8724,11 +8724,11 @@
 "St. Thomas, Apostle"
 ],
 "2022-12-22": [
-"greater feria of advent",
+"greater feria of advent|12-22",
 "Greater Feria of Advent"
 ],
 "2022-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2022-12-24": [
@@ -8736,7 +8736,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2022-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2022-12-26": [
@@ -8764,11 +8764,11 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2023-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2023-01-02": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2023-01-03": [
@@ -8784,7 +8784,7 @@
 "Thursday after Fourth Sunday of Advent (+2 wk)"
 ],
 "2023-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2023-01-07": [
@@ -8792,7 +8792,7 @@
 "Saturday of Our Lady"
 ],
 "2023-01-08": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2023-01-09": [
@@ -8852,7 +8852,7 @@
 "Third Sunday after Epiphany"
 ],
 "2023-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2023-01-24": [
@@ -9000,7 +9000,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2023-03-01": [
-"ember wednesday",
+"ember|lent|wednesday",
 "Ember Wednesday"
 ],
 "2023-03-02": [
@@ -9008,11 +9008,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2023-03-03": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2023-03-04": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2023-03-05": [
@@ -9140,7 +9140,7 @@
 "Tuesday of Holy Week"
 ],
 "2023-04-05": [
-"wednesday of holy week office of tenebr",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebræ"
 ],
 "2023-04-06": [
@@ -9148,11 +9148,11 @@
 "Maundy Thursday"
 ],
 "2023-04-07": [
-"good friday office and mass of the presanctified",
+"good friday",
 "Good Friday Office and Mass of the Presanctified"
 ],
 "2023-04-08": [
-"solemn easter vigil and first mass of easter sunday",
+"holy saturday",
 "Solemn Easter Vigil and First Mass of Easter Sunday"
 ],
 "2023-04-09": [
@@ -9184,23 +9184,23 @@
 "Easter Saturday"
 ],
 "2023-04-16": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2023-04-17": [
-"feria|divine mercy sunday|monday",
+"feria|dominica in albis|monday",
 "Monday after Divine Mercy Sunday"
 ],
 "2023-04-18": [
-"feria|divine mercy sunday|tuesday",
+"feria|dominica in albis|tuesday",
 "Tuesday after Divine Mercy Sunday"
 ],
 "2023-04-19": [
-"feria|divine mercy sunday|wednesday",
+"feria|dominica in albis|wednesday",
 "Wednesday after Divine Mercy Sunday"
 ],
 "2023-04-20": [
-"feria|divine mercy sunday|thursday",
+"feria|dominica in albis|thursday",
 "Thursday after Divine Mercy Sunday"
 ],
 "2023-04-21": [
@@ -9312,7 +9312,7 @@
 "Vigil of the Ascension"
 ],
 "2023-05-18": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2023-05-19": [
@@ -9320,7 +9320,7 @@
 "St. Peter Celestine, Pope & Confessor"
 ],
 "2023-05-20": [
-"bernardine of sienna",
+"bernardine of siena",
 "St. Bernardine of Sienna, Confessor"
 ],
 "2023-05-21": [
@@ -9364,7 +9364,7 @@
 "Pentecost Tuesday"
 ],
 "2023-05-31": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2023-06-01": [
@@ -9372,11 +9372,11 @@
 "Pentecost Thursday"
 ],
 "2023-06-02": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2023-06-03": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2023-06-04": [
@@ -9428,7 +9428,7 @@
 "Thursday after Second Sunday after Pentecost"
 ],
 "2023-06-16": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2023-06-17": [
@@ -9440,7 +9440,7 @@
 "Third Sunday after Pentecost"
 ],
 "2023-06-19": [
-"julia falconieri",
+"juliana falconieri",
 "St. Julia Falconieri, Virgin"
 ],
 "2023-06-20": [
@@ -9468,7 +9468,7 @@
 "Fourth Sunday after Pentecost"
 ],
 "2023-06-26": [
-"john and paul",
+"john paul",
 "Ss John and Paul, Martyrs"
 ],
 "2023-06-27": [
@@ -9476,11 +9476,11 @@
 "Tuesday after Fourth Sunday after Pentecost"
 ],
 "2023-06-28": [
-"vigil of saints peter and paul",
+"vigil of peter paul",
 "Vigil of Saints Peter and Paul"
 ],
 "2023-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2023-06-30": [
@@ -9488,7 +9488,7 @@
 "Commemoration of St. Paul, Apostle"
 ],
 "2023-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2023-07-02": [
@@ -9496,7 +9496,7 @@
 "Fifth Sunday after Pentecost"
 ],
 "2023-07-03": [
-"iren us",
+"irenaeus",
 "St. Irenæus, Bishop & Martyr"
 ],
 "2023-07-04": [
@@ -9524,7 +9524,7 @@
 "Sixth Sunday after Pentecost"
 ],
 "2023-07-10": [
-"the seven holy brothers",
+"seven holy brothers",
 "The Seven Holy Brothers, Martyrs, and Ss Rufina & Secunda, Virgin Martyrs"
 ],
 "2023-07-11": [
@@ -9544,7 +9544,7 @@
 "St. Bonaventure, Bishop, Confessor & Doctor"
 ],
 "2023-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2023-07-16": [
@@ -9564,7 +9564,7 @@
 "St. Vincent de Paul, Confessor"
 ],
 "2023-07-20": [
-"jerome miliani",
+"jerome emiliani",
 "St. Jerome Æmiliani, Confessor"
 ],
 "2023-07-21": [
@@ -9632,7 +9632,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2023-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2023-08-07": [
@@ -9652,8 +9652,8 @@
 "St. Laurence, Deacon and Martyr"
 ],
 "2023-08-11": [
-"feria|ninth sunday after pentecost+1|friday",
-"Friday after Ninth Sunday after Pentecost (+1 wk)"
+"feria|tenth sunday after pentecost|friday",
+"Friday after Tenth Sunday after Pentecost"
 ],
 "2023-08-12": [
 "clare",
@@ -9668,7 +9668,7 @@
 "Vigil of the Assumption"
 ],
 "2023-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2023-08-16": [
@@ -9692,15 +9692,15 @@
 "Twelfth Sunday after Pentecost"
 ],
 "2023-08-21": [
-"jane frances fremiot de chantal",
+"jane frances de chantal",
 "St. Jane Frances Fremiot de Chantal, Widow"
 ],
 "2023-08-22": [
-"the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2023-08-23": [
-"philip benize",
+"philip benizi",
 "St. Philip Benize, Confessor"
 ],
 "2023-08-24": [
@@ -9724,7 +9724,7 @@
 "St. Augustine, Bishop, Confessor & Doctor"
 ],
 "2023-08-29": [
-"the beheading of john the baptist",
+"beheading of john the baptist",
 "The Beheading of St. John the Baptist"
 ],
 "2023-08-30": [
@@ -9780,7 +9780,7 @@
 "Monday after Fifteenth Sunday after Pentecost"
 ],
 "2023-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2023-09-13": [
@@ -9812,7 +9812,7 @@
 "Ss Januarius, Bishop, and Companions, Martyrs"
 ],
 "2023-09-20": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2023-09-21": [
@@ -9820,11 +9820,11 @@
 "St. Matthew, Apostle & Evangelist"
 ],
 "2023-09-22": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2023-09-23": [
-"ember saturday",
+"ember|september|saturday",
 "Ember Saturday"
 ],
 "2023-09-24": [
@@ -9860,11 +9860,11 @@
 "Eighteenth Sunday after Pentecost"
 ],
 "2023-10-02": [
-"the holy guardian angels",
+"holy guardian angels",
 "The Holy Guardian Angels"
 ],
 "2023-10-03": [
-"theresa of the child jesus",
+"therese of the child jesus",
 "St. Theresa of the Child Jesus, Virgin & Doctor"
 ],
 "2023-10-04": [
@@ -9896,7 +9896,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2023-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2023-10-12": [
@@ -9904,7 +9904,7 @@
 "Thursday after Nineteenth Sunday after Pentecost"
 ],
 "2023-10-13": [
-"edward the confessor",
+"edward",
 "St. Edward the Confessor, King and Confessor"
 ],
 "2023-10-14": [
@@ -9968,16 +9968,16 @@
 "Ss Simon & Jude, Apostles"
 ],
 "2023-10-29": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2023-10-30": [
-"feria|twenty first sunday after pentecost+1|monday",
-"Monday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|monday",
+"Monday after Twenty-Second Sunday after Pentecost"
 ],
 "2023-10-31": [
-"feria|twenty first sunday after pentecost+1|tuesday",
-"Tuesday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|tuesday",
+"Tuesday after Twenty-Second Sunday after Pentecost"
 ],
 "2023-11-01": [
 "all saints",
@@ -9988,8 +9988,8 @@
 "Commemoration of All Souls, First Mass, With Rite of Absolution"
 ],
 "2023-11-03": [
-"feria|twenty first sunday after pentecost+1|friday",
-"Friday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|friday",
+"Friday after Twenty-Second Sunday after Pentecost"
 ],
 "2023-11-04": [
 "charles borromeo",
@@ -10044,7 +10044,7 @@
 "St. Gertrude the Great, Virgin"
 ],
 "2023-11-17": [
-"gregory thaumaturgus",
+"gregory the wonderworker",
 "St. Gregory Thaumaturgus"
 ],
 "2023-11-18": [
@@ -10060,7 +10060,7 @@
 "St. Felix of Valois, Confessor"
 ],
 "2023-11-21": [
-"the presentation of the virgin mary",
+"presentation of the virgin mary",
 "The Presentation of the Blessed Virgin Mary"
 ],
 "2023-11-22": [
@@ -10080,19 +10080,19 @@
 "St. Catherine of Alexandria, Virgin & Martyr"
 ],
 "2023-11-26": [
-"twenty fourth or last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2023-11-27": [
-"feria|twenty fourth or last sunday after pentecost|monday",
+"feria|last sunday after pentecost|monday",
 "Monday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2023-11-28": [
-"feria|twenty fourth or last sunday after pentecost|tuesday",
+"feria|last sunday after pentecost|tuesday",
 "Tuesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2023-11-29": [
-"feria|twenty fourth or last sunday after pentecost|wednesday",
+"feria|last sunday after pentecost|wednesday",
 "Wednesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2023-11-30": [
@@ -10100,7 +10100,7 @@
 "St. Andrew, Apostle"
 ],
 "2023-12-01": [
-"feria|twenty fourth or last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2023-12-02": [
@@ -10168,15 +10168,15 @@
 "Third Sunday of Advent"
 ],
 "2023-12-18": [
-"greater feria of advent",
+"greater feria of advent|12-18",
 "Greater Feria of Advent"
 ],
 "2023-12-19": [
-"greater feria of advent",
+"greater feria of advent|12-19",
 "Greater Feria of Advent"
 ],
 "2023-12-20": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2023-12-21": [
@@ -10184,11 +10184,11 @@
 "St. Thomas, Apostle"
 ],
 "2023-12-22": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2023-12-23": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2023-12-24": [
@@ -10196,7 +10196,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2023-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2023-12-26": [
@@ -10224,11 +10224,11 @@
 "Sunday in the Octave of Christmas"
 ],
 "2024-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2024-01-02": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2024-01-03": [
@@ -10244,11 +10244,11 @@
 "Friday after Sunday in the Octave of Christmas"
 ],
 "2024-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2024-01-07": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2024-01-08": [
@@ -10312,7 +10312,7 @@
 "Ss Vincent & Anastasius, Martyrs"
 ],
 "2024-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2024-01-24": [
@@ -10392,7 +10392,7 @@
 "Quinquagesima Sunday"
 ],
 "2024-02-12": [
-"the holy seven founders of the order of servants of the virgin mary",
+"seven holy servite founders",
 "The Holy Seven Founders of the Order of Servants of the Blessed Virgin Mary, Confessors"
 ],
 "2024-02-13": [
@@ -10428,7 +10428,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2024-02-21": [
-"ember wednesday",
+"ember|lent|wednesday",
 "Ember Wednesday"
 ],
 "2024-02-22": [
@@ -10436,11 +10436,11 @@
 "Chair of Saint Peter, Apostle"
 ],
 "2024-02-23": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2024-02-24": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2024-02-25": [
@@ -10568,7 +10568,7 @@
 "Tuesday of Holy Week"
 ],
 "2024-03-27": [
-"wednesday of holy week office of tenebr",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebræ"
 ],
 "2024-03-28": [
@@ -10576,11 +10576,11 @@
 "Maundy Thursday"
 ],
 "2024-03-29": [
-"good friday office and mass of the presanctified",
+"good friday",
 "Good Friday Office and Mass of the Presanctified"
 ],
 "2024-03-30": [
-"solemn easter vigil and first mass of easter sunday",
+"holy saturday",
 "Solemn Easter Vigil and First Mass of Easter Sunday"
 ],
 "2024-03-31": [
@@ -10612,7 +10612,7 @@
 "Easter Saturday"
 ],
 "2024-04-07": [
-"divine mercy sunday",
+"dominica in albis",
 "Divine Mercy Sunday"
 ],
 "2024-04-08": [
@@ -10620,11 +10620,11 @@
 "Annunciation of the Blessed Virgin Mary"
 ],
 "2024-04-09": [
-"feria|divine mercy sunday|tuesday",
+"feria|dominica in albis|tuesday",
 "Tuesday after Divine Mercy Sunday"
 ],
 "2024-04-10": [
-"feria|divine mercy sunday|wednesday",
+"feria|dominica in albis|wednesday",
 "Wednesday after Divine Mercy Sunday"
 ],
 "2024-04-11": [
@@ -10632,7 +10632,7 @@
 "St. Leo the Great, Pope, Confessor & Doctor"
 ],
 "2024-04-12": [
-"feria|divine mercy sunday|friday",
+"feria|dominica in albis|friday",
 "Friday after Divine Mercy Sunday"
 ],
 "2024-04-13": [
@@ -10740,7 +10740,7 @@
 "Vigil of the Ascension"
 ],
 "2024-05-09": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2024-05-10": [
@@ -10792,7 +10792,7 @@
 "Pentecost Tuesday"
 ],
 "2024-05-22": [
-"ember wednesday of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday of Pentecost"
 ],
 "2024-05-23": [
@@ -10800,11 +10800,11 @@
 "Pentecost Thursday"
 ],
 "2024-05-24": [
-"ember friday of pentecost",
+"ember|pentecost|friday",
 "Ember Friday of Pentecost"
 ],
 "2024-05-25": [
-"ember saturday of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday of Pentecost"
 ],
 "2024-05-26": [
@@ -10828,7 +10828,7 @@
 "Corpus Christi"
 ],
 "2024-05-31": [
-"the queenship of the virgin mary",
+"queenship of the virgin mary",
 "The Queenship of the Blessed Virgin Mary"
 ],
 "2024-06-01": [
@@ -10856,7 +10856,7 @@
 "St. Norbert, Bishop & Confessor"
 ],
 "2024-06-07": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2024-06-08": [
@@ -10904,7 +10904,7 @@
 "St. Ephrem of Syria, Deacon & Doctor"
 ],
 "2024-06-19": [
-"julia falconieri",
+"juliana falconieri",
 "St. Julia Falconieri, Virgin"
 ],
 "2024-06-20": [
@@ -10932,7 +10932,7 @@
 "St. William, Abbot"
 ],
 "2024-06-26": [
-"john and paul",
+"john paul",
 "Ss John and Paul, Martyrs"
 ],
 "2024-06-27": [
@@ -10940,11 +10940,11 @@
 "Thursday after Fifth Sunday after Pentecost"
 ],
 "2024-06-28": [
-"vigil of saints peter and paul",
+"vigil of peter paul",
 "Vigil of Saints Peter and Paul"
 ],
 "2024-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2024-06-30": [
@@ -10952,7 +10952,7 @@
 "Sixth Sunday after Pentecost"
 ],
 "2024-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2024-07-02": [
@@ -10960,7 +10960,7 @@
 "Visitation of the Blessed Virgin Mary"
 ],
 "2024-07-03": [
-"iren us",
+"irenaeus",
 "St. Irenæus, Bishop, Martyr & Doctor"
 ],
 "2024-07-04": [
@@ -10988,7 +10988,7 @@
 "Tuesday after Seventh Sunday after Pentecost"
 ],
 "2024-07-10": [
-"the seven holy brothers",
+"seven holy brothers",
 "The Seven Holy Brothers, Martyrs, and Ss Rufina & Secunda, Virgin Martyrs"
 ],
 "2024-07-11": [
@@ -11008,7 +11008,7 @@
 "Eighth Sunday after Pentecost"
 ],
 "2024-07-15": [
-"henry the emperor",
+"henry",
 "St. Henry the Emperor, Confessor"
 ],
 "2024-07-16": [
@@ -11028,7 +11028,7 @@
 "St. Vincent de Paul, Confessor"
 ],
 "2024-07-20": [
-"jerome miliani",
+"jerome emiliani",
 "St. Jerome Æmiliani, Confessor"
 ],
 "2024-07-21": [
@@ -11096,7 +11096,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2024-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2024-08-07": [
@@ -11132,7 +11132,7 @@
 "Vigil of the Assumption"
 ],
 "2024-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2024-08-16": [
@@ -11156,15 +11156,15 @@
 "St. Bernard of Clairvaux, Abbot & Doctor"
 ],
 "2024-08-21": [
-"jane frances fremiot de chantal",
+"jane frances de chantal",
 "St. Jane Frances Fremiot de Chantal, Widow"
 ],
 "2024-08-22": [
-"octave of the assumption the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "Octave of the Assumption: The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2024-08-23": [
-"philip benize",
+"philip benizi",
 "St. Philip Benize, Confessor"
 ],
 "2024-08-24": [
@@ -11180,7 +11180,7 @@
 "Monday after Fourteenth Sunday after Pentecost"
 ],
 "2024-08-27": [
-"joseph of calasance",
+"joseph calasance",
 "St. Joseph of Calasance, Confessor"
 ],
 "2024-08-28": [
@@ -11188,7 +11188,7 @@
 "St. Augustine, Bishop, Confessor & Doctor"
 ],
 "2024-08-29": [
-"the beheading of john the baptist",
+"beheading of john the baptist",
 "The Beheading of St. John the Baptist"
 ],
 "2024-08-30": [
@@ -11244,7 +11244,7 @@
 "Wednesday after Sixteenth Sunday after Pentecost"
 ],
 "2024-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2024-09-13": [
@@ -11268,7 +11268,7 @@
 "Tuesday after Seventeenth Sunday after Pentecost"
 ],
 "2024-09-18": [
-"ember wednesday",
+"ember|september|wednesday",
 "Ember Wednesday"
 ],
 "2024-09-19": [
@@ -11276,7 +11276,7 @@
 "Ss Januarius, Bishop, and Companions, Martyrs"
 ],
 "2024-09-20": [
-"ember friday",
+"ember|september|friday",
 "Ember Friday"
 ],
 "2024-09-21": [
@@ -11312,7 +11312,7 @@
 "St. Wenceslaus, Duke & Martyr"
 ],
 "2024-09-29": [
-"dedication of michael the archangel",
+"dedication of the basilica of michael the archangel",
 "Dedication of St. Michael the Archangel"
 ],
 "2024-09-30": [
@@ -11320,15 +11320,15 @@
 "St. Jerome, Priest, Confessor & Doctor"
 ],
 "2024-10-01": [
-"feria|eighteenth sunday after pentecost+1|tuesday",
-"Tuesday after Eighteenth Sunday after Pentecost (+1 wk)"
+"feria|nineteenth sunday after pentecost|tuesday",
+"Tuesday after Nineteenth Sunday after Pentecost"
 ],
 "2024-10-02": [
-"the holy guardian angels",
+"holy guardian angels",
 "The Holy Guardian Angels"
 ],
 "2024-10-03": [
-"th r se of the child jesus and the holy face",
+"therese of the child jesus",
 "St. Thérèse of the Child Jesus and the Holy Face, Virgin & Doctress"
 ],
 "2024-10-04": [
@@ -11360,7 +11360,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2024-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2024-10-12": [
@@ -11424,7 +11424,7 @@
 "Saturday of Our Lady"
 ],
 "2024-10-27": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2024-10-28": [
@@ -11432,16 +11432,16 @@
 "Ss Simon & Jude, Apostles"
 ],
 "2024-10-29": [
-"feria|twenty second sunday after pentecost+1|tuesday",
-"Tuesday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|tuesday",
+"Tuesday after Twenty-Third Sunday after Pentecost"
 ],
 "2024-10-30": [
-"feria|twenty second sunday after pentecost+1|wednesday",
-"Wednesday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|wednesday",
+"Wednesday after Twenty-Third Sunday after Pentecost"
 ],
 "2024-10-31": [
-"feria|twenty second sunday after pentecost+1|thursday",
-"Thursday after Twenty-Second Sunday after Pentecost (+1 wk)"
+"feria|twenty third sunday after pentecost|thursday",
+"Thursday after Twenty-Third Sunday after Pentecost"
 ],
 "2024-11-01": [
 "all saints",
@@ -11524,7 +11524,7 @@
 "St. Felix of Valois, Confessor"
 ],
 "2024-11-21": [
-"the presentation of the virgin mary",
+"presentation of the virgin mary",
 "The Presentation of the Blessed Virgin Mary"
 ],
 "2024-11-22": [
@@ -11536,7 +11536,7 @@
 "St. Clement I, Pope & Martyr"
 ],
 "2024-11-24": [
-"twenty fourth or last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2024-11-25": [
@@ -11548,15 +11548,15 @@
 "St. Sylvester, Abbot"
 ],
 "2024-11-27": [
-"feria|twenty fourth or last sunday after pentecost|wednesday",
+"feria|last sunday after pentecost|wednesday",
 "Wednesday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2024-11-28": [
-"feria|twenty fourth or last sunday after pentecost|thursday",
+"feria|last sunday after pentecost|thursday",
 "Thursday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2024-11-29": [
-"feria|twenty fourth or last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth or Last Sunday after Pentecost"
 ],
 "2024-11-30": [
@@ -11596,28 +11596,28 @@
 "Immaculate Conception of the Blessed Virgin Mary"
 ],
 "2024-12-09": [
-"feria|first sunday of advent+1|monday",
-"Monday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|monday",
+"Monday after Second Sunday of Advent"
 ],
 "2024-12-10": [
-"feria|first sunday of advent+1|tuesday",
-"Tuesday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|tuesday",
+"Tuesday after Second Sunday of Advent"
 ],
 "2024-12-11": [
 "damasus i",
 "St. Damasus I, Pope & Confessor"
 ],
 "2024-12-12": [
-"feria|first sunday of advent+1|thursday",
-"Thursday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|thursday",
+"Thursday after Second Sunday of Advent"
 ],
 "2024-12-13": [
 "lucy",
 "St. Lucy, Virgin & Martyr"
 ],
 "2024-12-14": [
-"feria|first sunday of advent+1|saturday",
-"Saturday after First Sunday of Advent (+1 wk)"
+"feria|second sunday of advent|saturday",
+"Saturday after Second Sunday of Advent"
 ],
 "2024-12-15": [
 "third sunday of advent",
@@ -11628,19 +11628,19 @@
 "St. Eusebius, Bishop & Martyr"
 ],
 "2024-12-17": [
-"greater feria of advent",
+"greater feria of advent|12-17",
 "Greater Feria of Advent"
 ],
 "2024-12-18": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2024-12-19": [
-"greater feria of advent",
+"greater feria of advent|12-19",
 "Greater Feria of Advent"
 ],
 "2024-12-20": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2024-12-21": [
@@ -11652,7 +11652,7 @@
 "Fourth Sunday of Advent"
 ],
 "2024-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2024-12-24": [
@@ -11660,7 +11660,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2024-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2024-12-26": [
@@ -11688,7 +11688,7 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2025-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2025-01-02": [
@@ -11704,11 +11704,11 @@
 "Saturday of Our Lady"
 ],
 "2025-01-05": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2025-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2025-01-07": [
@@ -11732,7 +11732,7 @@
 "Saturday of Our Lady"
 ],
 "2025-01-12": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2025-01-13": [
@@ -11776,7 +11776,7 @@
 "Ss Vincent & Anastasius, Martyrs"
 ],
 "2025-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2025-01-24": [
@@ -11820,8 +11820,8 @@
 "Purification of the Blessed Virgin Mary"
 ],
 "2025-02-03": [
-"feria|third sunday after epiphany+1|monday",
-"Monday after Third Sunday after Epiphany (+1 wk)"
+"feria|fourth sunday after epiphany|monday",
+"Monday after Fourth Sunday after Epiphany"
 ],
 "2025-02-04": [
 "andrew corsini",
@@ -11856,7 +11856,7 @@
 "Our Lady of Lourdes"
 ],
 "2025-02-12": [
-"the holy seven founders of the order of servants of the virgin mary",
+"seven holy servite founders",
 "The Holy Seven Founders of the Order of Servants of the Blessed Virgin Mary, Confessors"
 ],
 "2025-02-13": [
@@ -11872,27 +11872,27 @@
 "Saturday of Our Lady"
 ],
 "2025-02-16": [
-"septuagesima sunday and addendum",
+"septuagesima sunday",
 "Septuagesima Sunday and Addendum"
 ],
 "2025-02-17": [
-"feria|septuagesima sunday and addendum|monday",
+"feria|septuagesima sunday|monday",
 "Monday after Septuagesima Sunday and Addendum"
 ],
 "2025-02-18": [
-"feria|septuagesima sunday and addendum|tuesday",
+"feria|septuagesima sunday|tuesday",
 "Tuesday after Septuagesima Sunday and Addendum"
 ],
 "2025-02-19": [
-"feria|septuagesima sunday and addendum|wednesday",
+"feria|septuagesima sunday|wednesday",
 "Wednesday after Septuagesima Sunday and Addendum"
 ],
 "2025-02-20": [
-"feria|septuagesima sunday and addendum|thursday",
+"feria|septuagesima sunday|thursday",
 "Thursday after Septuagesima Sunday and Addendum"
 ],
 "2025-02-21": [
-"feria|septuagesima sunday and addendum|friday",
+"feria|septuagesima sunday|friday",
 "Friday after Septuagesima Sunday and Addendum"
 ],
 "2025-02-22": [
@@ -11968,7 +11968,7 @@
 "Tuesday after First Sunday of Lent"
 ],
 "2025-03-12": [
-"ember wednesday",
+"ember|lent|wednesday",
 "Ember Wednesday"
 ],
 "2025-03-13": [
@@ -11976,11 +11976,11 @@
 "Thursday after First Sunday of Lent"
 ],
 "2025-03-14": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2025-03-15": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2025-03-16": [
@@ -12112,7 +12112,7 @@
 "Wednesday of Holy Week"
 ],
 "2025-04-17": [
-"holy thursday",
+"maundy thursday",
 "Holy Thursday"
 ],
 "2025-04-18": [
@@ -12124,31 +12124,31 @@
 "Holy Saturday"
 ],
 "2025-04-20": [
-"dominica resurrectionis",
+"easter sunday",
 "Dominica Resurrectionis"
 ],
 "2025-04-21": [
-"monday in the octave of easter",
+"easter monday",
 "Monday in the Octave of Easter"
 ],
 "2025-04-22": [
-"tuesday in the octave of easter",
+"easter tuesday",
 "Tuesday in the Octave of Easter"
 ],
 "2025-04-23": [
-"wednesday in the octave of easter",
+"easter wednesday",
 "Wednesday in the Octave of Easter"
 ],
 "2025-04-24": [
-"thursday in the octave of easter",
+"easter thursday",
 "Thursday in the Octave of Easter"
 ],
 "2025-04-25": [
-"friday in the octave of easter",
+"easter friday",
 "Friday in the Octave of Easter"
 ],
 "2025-04-26": [
-"saturday in the octave of easter",
+"easter saturday",
 "Saturday in the Octave of Easter"
 ],
 "2025-04-27": [
@@ -12280,7 +12280,7 @@
 "Vigil of the Ascension"
 ],
 "2025-05-29": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2025-05-30": [
@@ -12288,7 +12288,7 @@
 "Friday after Fifth Sunday after Easter"
 ],
 "2025-05-31": [
-"the queenship of the virgin mary",
+"queenship of the virgin mary",
 "The Queenship of the Blessed Virgin Mary"
 ],
 "2025-06-01": [
@@ -12324,27 +12324,27 @@
 "Pentecost Sunday"
 ],
 "2025-06-09": [
-"monday in the octave of pentecost",
+"pentecost monday",
 "Monday in the Octave of Pentecost"
 ],
 "2025-06-10": [
-"tuesday in the octave of pentecost",
+"pentecost tuesday",
 "Tuesday in the Octave of Pentecost"
 ],
 "2025-06-11": [
-"ember wednesday in the octave of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday in the Octave of Pentecost"
 ],
 "2025-06-12": [
-"thursday in the octave of pentecost",
+"pentecost thursday",
 "Thursday in the Octave of Pentecost"
 ],
 "2025-06-13": [
-"ember friday in the octave of pentecost",
+"ember|pentecost|friday",
 "Ember Friday in the Octave of Pentecost"
 ],
 "2025-06-14": [
-"ember saturday in the octave of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday in the Octave of Pentecost"
 ],
 "2025-06-15": [
@@ -12392,19 +12392,19 @@
 "St. William, Abbot"
 ],
 "2025-06-26": [
-"john and paul",
+"john paul",
 "Ss John and Paul, Martyrs"
 ],
 "2025-06-27": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2025-06-28": [
-"vigil of saints peter and paul",
+"vigil of peter paul",
 "Vigil of Saints Peter and Paul"
 ],
 "2025-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2025-06-30": [
@@ -12412,7 +12412,7 @@
 "Commemoration of Saint Paul, Apostle"
 ],
 "2025-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2025-07-02": [
@@ -12420,12 +12420,12 @@
 "Visitation of the Blessed Virgin Mary"
 ],
 "2025-07-03": [
-"iren us",
+"irenaeus",
 "St. Irenæus, Bishop & Martyr"
 ],
 "2025-07-04": [
-"feria|second sunday after pentecost+1|friday",
-"Friday after Second Sunday after Pentecost (+1 wk)"
+"feria|third sunday after pentecost|friday",
+"Friday after Third Sunday after Pentecost"
 ],
 "2025-07-05": [
 "anthony mary zaccaria",
@@ -12436,7 +12436,7 @@
 "Fourth Sunday after Pentecost"
 ],
 "2025-07-07": [
-"cyril and methodius",
+"cyril methodius",
 "Ss Cyril and Methodius, Bishops and Confessors"
 ],
 "2025-07-08": [
@@ -12448,7 +12448,7 @@
 "Wednesday after Fourth Sunday after Pentecost"
 ],
 "2025-07-10": [
-"the seven holy brothers",
+"seven holy brothers",
 "The Seven Holy Brothers, Martyrs, and Ss Rufina & Secunda, Virgin Martyrs"
 ],
 "2025-07-11": [
@@ -12556,7 +12556,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2025-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord Jesus Christ"
 ],
 "2025-08-07": [
@@ -12592,7 +12592,7 @@
 "Vigil of the Assumption"
 ],
 "2025-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2025-08-16": [
@@ -12616,15 +12616,15 @@
 "St. Bernard of Clairvaux, Abbot & Doctor"
 ],
 "2025-08-21": [
-"jane frances fremiot de chantal",
+"jane frances de chantal",
 "St. Jane Frances Fremiot de Chantal, Widow"
 ],
 "2025-08-22": [
-"octave of the assumption the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "Octave of the Assumption: The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2025-08-23": [
-"philip benize",
+"philip benizi",
 "St. Philip Benize, Confessor"
 ],
 "2025-08-24": [
@@ -12640,7 +12640,7 @@
 "Tuesday after Eleventh Sunday after Pentecost"
 ],
 "2025-08-27": [
-"joseph of calasance",
+"joseph calasance",
 "St. Joseph of Calasance, Confessor"
 ],
 "2025-08-28": [
@@ -12648,7 +12648,7 @@
 "St. Augustine, Bishop, Confessor & Doctor"
 ],
 "2025-08-29": [
-"the beheading of john the baptist",
+"beheading of john the baptist",
 "The Beheading of St. John the Baptist"
 ],
 "2025-08-30": [
@@ -12704,7 +12704,7 @@
 "Thursday after Thirteenth Sunday after Pentecost"
 ],
 "2025-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2025-09-13": [
@@ -12724,8 +12724,8 @@
 "Ss Cornelius, Pope, and Cyprian, Martyrs"
 ],
 "2025-09-17": [
-"feria|thirteenth sunday after pentecost+1|wednesday",
-"Wednesday after Thirteenth Sunday after Pentecost (+1 wk)"
+"feria|fourteenth sunday after pentecost|wednesday",
+"Wednesday after Fourteenth Sunday after Pentecost"
 ],
 "2025-09-18": [
 "joseph of cupertino",
@@ -12752,7 +12752,7 @@
 "St. Linus, Pope & Martyr"
 ],
 "2025-09-24": [
-"ember wednesday in september",
+"ember|september|wednesday",
 "Ember Wednesday in September"
 ],
 "2025-09-25": [
@@ -12760,11 +12760,11 @@
 "Thursday after Fifteenth Sunday after Pentecost"
 ],
 "2025-09-26": [
-"ember friday in september",
+"ember|september|friday",
 "Ember Friday in September"
 ],
 "2025-09-27": [
-"ember saturday in september",
+"ember|september|saturday",
 "Ember Saturday in September"
 ],
 "2025-09-28": [
@@ -12772,7 +12772,7 @@
 "Sixteenth Sunday after Pentecost"
 ],
 "2025-09-29": [
-"dedication of michael the archangel",
+"dedication of the basilica of michael the archangel",
 "Dedication of St. Michael the Archangel"
 ],
 "2025-09-30": [
@@ -12784,11 +12784,11 @@
 "Wednesday after Sixteenth Sunday after Pentecost"
 ],
 "2025-10-02": [
-"the holy guardian angels",
+"holy guardian angels",
 "The Holy Guardian Angels"
 ],
 "2025-10-03": [
-"th r se of the child jesus and the holy face",
+"therese of the child jesus",
 "St. Thérèse of the Child Jesus and the Holy Face, Virgin & Doctor"
 ],
 "2025-10-04": [
@@ -12820,7 +12820,7 @@
 "St. Francis Borgia, Confessor"
 ],
 "2025-10-11": [
-"the maternity of the virgin mary",
+"maternity of the virgin mary",
 "The Maternity of the Blessed Virgin Mary"
 ],
 "2025-10-12": [
@@ -12880,28 +12880,28 @@
 "Saturday of Our Lady"
 ],
 "2025-10-26": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2025-10-27": [
-"feria|nineteenth sunday after pentecost+1|monday",
-"Monday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|monday",
+"Monday after Twentieth Sunday after Pentecost"
 ],
 "2025-10-28": [
 "simon jude",
 "Ss Simon & Jude, Apostles"
 ],
 "2025-10-29": [
-"feria|nineteenth sunday after pentecost+1|wednesday",
-"Wednesday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|wednesday",
+"Wednesday after Twentieth Sunday after Pentecost"
 ],
 "2025-10-30": [
-"feria|nineteenth sunday after pentecost+1|thursday",
-"Thursday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|thursday",
+"Thursday after Twentieth Sunday after Pentecost"
 ],
 "2025-10-31": [
-"feria|nineteenth sunday after pentecost+1|friday",
-"Friday after Nineteenth Sunday after Pentecost (+1 wk)"
+"feria|twentieth sunday after pentecost|friday",
+"Friday after Twentieth Sunday after Pentecost"
 ],
 "2025-11-01": [
 "all saints",
@@ -12912,7 +12912,7 @@
 "Twenty-First Sunday after Pentecost"
 ],
 "2025-11-03": [
-"1 commemoration of all souls",
+"commemoration of all souls",
 "1. Commemoration of All Souls, The First Mass"
 ],
 "2025-11-04": [
@@ -12984,7 +12984,7 @@
 "St. Felix of Valois, Confessor"
 ],
 "2025-11-21": [
-"the presentation of the virgin mary",
+"presentation of the virgin mary",
 "The Presentation of the Blessed Virgin Mary"
 ],
 "2025-11-22": [
@@ -12992,7 +12992,7 @@
 "St. Cecilia, Virgin & Martyr"
 ],
 "2025-11-23": [
-"twenty fourth and last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2025-11-24": [
@@ -13008,11 +13008,11 @@
 "St. Sylvester, Abbot"
 ],
 "2025-11-27": [
-"feria|twenty fourth and last sunday after pentecost|thursday",
+"feria|last sunday after pentecost|thursday",
 "Thursday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2025-11-28": [
-"feria|twenty fourth and last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2025-11-29": [
@@ -13088,19 +13088,19 @@
 "St. Eusebius, Bishop & Martyr"
 ],
 "2025-12-17": [
-"ember wednesday of advent",
+"ember|advent|wednesday",
 "Ember Wednesday of Advent"
 ],
 "2025-12-18": [
-"greater feria of advent",
+"greater feria of advent|12-18",
 "Greater Feria of Advent"
 ],
 "2025-12-19": [
-"ember friday of advent",
+"ember|advent|friday",
 "Ember Friday of Advent"
 ],
 "2025-12-20": [
-"ember saturday of advent",
+"ember|advent|saturday",
 "Ember Saturday of Advent"
 ],
 "2025-12-21": [
@@ -13108,11 +13108,11 @@
 "Fourth Sunday of Advent"
 ],
 "2025-12-22": [
-"greater feria of advent",
+"greater feria of advent|12-22",
 "Greater Feria of Advent"
 ],
 "2025-12-23": [
-"greater feria of advent",
+"greater feria of advent|12-23",
 "Greater Feria of Advent"
 ],
 "2025-12-24": [
@@ -13120,7 +13120,7 @@
 "Vigil of the Nativity of Our Lord"
 ],
 "2025-12-25": [
-"1 the nativity of our lord",
+"nativity of our lord",
 "1. The Nativity of Our Lord, First Mass at Midnight"
 ],
 "2025-12-26": [
@@ -13148,7 +13148,7 @@
 "Seventh Day in the Octave of Christmas"
 ],
 "2026-01-01": [
-"the octave of the nativity of the lord",
+"octave of the nativity of the lord",
 "The Octave of the Nativity of the Lord"
 ],
 "2026-01-02": [
@@ -13160,7 +13160,7 @@
 "Saturday of Our Lady"
 ],
 "2026-01-04": [
-"the most holy name of jesus",
+"most holy name of jesus",
 "The Most Holy Name of Jesus"
 ],
 "2026-01-05": [
@@ -13168,7 +13168,7 @@
 "Monday after Sunday in the Octave of Christmas (+1 wk)"
 ],
 "2026-01-06": [
-"the epiphany of the lord",
+"epiphany of the lord",
 "The Epiphany of the Lord"
 ],
 "2026-01-07": [
@@ -13188,7 +13188,7 @@
 "Saturday of Our Lady"
 ],
 "2026-01-11": [
-"the holy family",
+"holy family",
 "The Holy Family"
 ],
 "2026-01-12": [
@@ -13236,7 +13236,7 @@
 "Ss Vincent & Anastasius, Martyrs"
 ],
 "2026-01-23": [
-"raymond of pe afort",
+"raymond of penafort",
 "St. Raymond of Peñafort, Confessor"
 ],
 "2026-01-24": [
@@ -13272,7 +13272,7 @@
 "St. John Bosco, Confessor"
 ],
 "2026-02-01": [
-"septuagesima sunday and addendum",
+"septuagesima sunday",
 "Septuagesima Sunday and Addendum"
 ],
 "2026-02-02": [
@@ -13280,7 +13280,7 @@
 "Purification of the Blessed Virgin Mary"
 ],
 "2026-02-03": [
-"feria|septuagesima sunday and addendum|tuesday",
+"feria|septuagesima sunday|tuesday",
 "Tuesday after Septuagesima Sunday and Addendum"
 ],
 "2026-02-04": [
@@ -13316,7 +13316,7 @@
 "Our Lady of Lourdes"
 ],
 "2026-02-12": [
-"the holy seven founders of the order of servants of the virgin mary",
+"seven holy servite founders",
 "The Holy Seven Founders of the Order of Servants of the Blessed Virgin Mary, Confessors"
 ],
 "2026-02-13": [
@@ -13356,11 +13356,11 @@
 "Saturday after Ash Wednesday"
 ],
 "2026-02-22": [
-"first sunday in lent",
+"first sunday of lent",
 "First Sunday in Lent"
 ],
 "2026-02-23": [
-"feria|first sunday in lent|monday",
+"feria|first sunday of lent|monday",
 "Monday after First Sunday in Lent"
 ],
 "2026-02-24": [
@@ -13368,91 +13368,91 @@
 "St. Matthias, Apostle"
 ],
 "2026-02-25": [
-"ember wednesday",
+"ember|lent|wednesday",
 "Ember Wednesday"
 ],
 "2026-02-26": [
-"feria|first sunday in lent|thursday",
+"feria|first sunday of lent|thursday",
 "Thursday after First Sunday in Lent"
 ],
 "2026-02-27": [
-"ember friday of lent",
+"ember|lent|friday",
 "Ember Friday of Lent"
 ],
 "2026-02-28": [
-"ember saturday of lent",
+"ember|lent|saturday",
 "Ember Saturday of Lent"
 ],
 "2026-03-01": [
-"second sunday in lent",
+"second sunday of lent",
 "Second Sunday in Lent"
 ],
 "2026-03-02": [
-"feria|second sunday in lent|monday",
+"feria|second sunday of lent|monday",
 "Monday after Second Sunday in Lent"
 ],
 "2026-03-03": [
-"feria|second sunday in lent|tuesday",
+"feria|second sunday of lent|tuesday",
 "Tuesday after Second Sunday in Lent"
 ],
 "2026-03-04": [
-"feria|second sunday in lent|wednesday",
+"feria|second sunday of lent|wednesday",
 "Wednesday after Second Sunday in Lent"
 ],
 "2026-03-05": [
-"feria|second sunday in lent|thursday",
+"feria|second sunday of lent|thursday",
 "Thursday after Second Sunday in Lent"
 ],
 "2026-03-06": [
-"feria|second sunday in lent|friday",
+"feria|second sunday of lent|friday",
 "Friday after Second Sunday in Lent"
 ],
 "2026-03-07": [
-"feria|second sunday in lent|saturday",
+"feria|second sunday of lent|saturday",
 "Saturday after Second Sunday in Lent"
 ],
 "2026-03-08": [
-"third sunday in lent",
+"third sunday of lent",
 "Third Sunday in Lent"
 ],
 "2026-03-09": [
-"feria|third sunday in lent|monday",
+"feria|third sunday of lent|monday",
 "Monday after Third Sunday in Lent"
 ],
 "2026-03-10": [
-"feria|third sunday in lent|tuesday",
+"feria|third sunday of lent|tuesday",
 "Tuesday after Third Sunday in Lent"
 ],
 "2026-03-11": [
-"feria|third sunday in lent|wednesday",
+"feria|third sunday of lent|wednesday",
 "Wednesday after Third Sunday in Lent"
 ],
 "2026-03-12": [
-"feria|third sunday in lent|thursday",
+"feria|third sunday of lent|thursday",
 "Thursday after Third Sunday in Lent"
 ],
 "2026-03-13": [
-"feria|third sunday in lent|friday",
+"feria|third sunday of lent|friday",
 "Friday after Third Sunday in Lent"
 ],
 "2026-03-14": [
-"feria|third sunday in lent|saturday",
+"feria|third sunday of lent|saturday",
 "Saturday after Third Sunday in Lent"
 ],
 "2026-03-15": [
-"fourth sunday in lent",
+"fourth sunday of lent",
 "Fourth Sunday in Lent"
 ],
 "2026-03-16": [
-"feria|fourth sunday in lent|monday",
+"feria|fourth sunday of lent|monday",
 "Monday after Fourth Sunday in Lent"
 ],
 "2026-03-17": [
-"feria|fourth sunday in lent|tuesday",
+"feria|fourth sunday of lent|tuesday",
 "Tuesday after Fourth Sunday in Lent"
 ],
 "2026-03-18": [
-"feria|fourth sunday in lent|wednesday",
+"feria|fourth sunday of lent|wednesday",
 "Wednesday after Fourth Sunday in Lent"
 ],
 "2026-03-19": [
@@ -13460,11 +13460,11 @@
 "St. Joseph, Spouse of the Blessed Virgin Mary"
 ],
 "2026-03-20": [
-"feria|fourth sunday in lent|friday",
+"feria|fourth sunday of lent|friday",
 "Friday after Fourth Sunday in Lent"
 ],
 "2026-03-21": [
-"feria|fourth sunday in lent|saturday",
+"feria|fourth sunday of lent|saturday",
 "Saturday after Fourth Sunday in Lent"
 ],
 "2026-03-22": [
@@ -13480,7 +13480,7 @@
 "Tuesday after Passion Sunday, The First Sunday of Passiontide"
 ],
 "2026-03-25": [
-"the annunciation of the virgin mary",
+"annunciation of the virgin mary",
 "The Annunciation of the Blessed Virgin Mary"
 ],
 "2026-03-26": [
@@ -13508,11 +13508,11 @@
 "Tuesday of Holy Week"
 ],
 "2026-04-01": [
-"wednesday of holy week office of tenebr",
+"wednesday of holy week",
 "Wednesday of Holy Week; Office of Tenebræ"
 ],
 "2026-04-02": [
-"holy thursday",
+"maundy thursday",
 "Holy Thursday"
 ],
 "2026-04-03": [
@@ -13524,31 +13524,31 @@
 "Holy Saturday"
 ],
 "2026-04-05": [
-"dominica resurrectionis",
+"easter sunday",
 "Dominica Resurrectionis"
 ],
 "2026-04-06": [
-"monday in the octave of easter",
+"easter monday",
 "Monday in the Octave of Easter"
 ],
 "2026-04-07": [
-"tuesday in the octave of easter",
+"easter tuesday",
 "Tuesday in the Octave of Easter"
 ],
 "2026-04-08": [
-"wednesday in the octave of easter",
+"easter wednesday",
 "Wednesday in the Octave of Easter"
 ],
 "2026-04-09": [
-"thursday in the octave of easter",
+"easter thursday",
 "Thursday in the Octave of Easter"
 ],
 "2026-04-10": [
-"friday in the octave of easter",
+"easter friday",
 "Friday in the Octave of Easter"
 ],
 "2026-04-11": [
-"saturday in the octave of easter",
+"easter saturday",
 "Saturday in the Octave of Easter"
 ],
 "2026-04-12": [
@@ -13680,7 +13680,7 @@
 "Vigil of the Ascension"
 ],
 "2026-05-14": [
-"the ascension of the lord",
+"ascension of the lord",
 "The Ascension of the Lord"
 ],
 "2026-05-15": [
@@ -13724,27 +13724,27 @@
 "Pentecost Sunday"
 ],
 "2026-05-25": [
-"monday in the octave of pentecost",
+"pentecost monday",
 "Monday in the Octave of Pentecost"
 ],
 "2026-05-26": [
-"tuesday in the octave of pentecost",
+"pentecost tuesday",
 "Tuesday in the Octave of Pentecost"
 ],
 "2026-05-27": [
-"ember wednesday in the octave of pentecost",
+"ember|pentecost|wednesday",
 "Ember Wednesday in the Octave of Pentecost"
 ],
 "2026-05-28": [
-"thursday in the octave of pentecost",
+"pentecost thursday",
 "Thursday in the Octave of Pentecost"
 ],
 "2026-05-29": [
-"ember friday in the octave of pentecost",
+"ember|pentecost|friday",
 "Ember Friday in the Octave of Pentecost"
 ],
 "2026-05-30": [
-"ember saturday in the octave of pentecost",
+"ember|pentecost|saturday",
 "Ember Saturday in the Octave of Pentecost"
 ],
 "2026-05-31": [
@@ -13796,7 +13796,7 @@
 "St. Barnabas, Apostle"
 ],
 "2026-06-12": [
-"the most sacred heart of jesus",
+"most sacred heart of jesus",
 "The Most Sacred Heart of Jesus"
 ],
 "2026-06-13": [
@@ -13852,7 +13852,7 @@
 "St. William, Abbot"
 ],
 "2026-06-26": [
-"john and paul",
+"john paul",
 "Ss John and Paul, Martyrs"
 ],
 "2026-06-27": [
@@ -13864,7 +13864,7 @@
 "Fifth Sunday after Pentecost"
 ],
 "2026-06-29": [
-"peter and paul",
+"peter paul",
 "Ss Peter and Paul, Apostles"
 ],
 "2026-06-30": [
@@ -13872,7 +13872,7 @@
 "Commemoration of Saint Paul, Apostle"
 ],
 "2026-07-01": [
-"the most precious blood of our lord jesus christ",
+"most precious blood of our lord jesus christ",
 "The Most Precious Blood of Our Lord Jesus Christ"
 ],
 "2026-07-02": [
@@ -13880,7 +13880,7 @@
 "Visitation of the Blessed Virgin Mary"
 ],
 "2026-07-03": [
-"iren us",
+"irenaeus",
 "St. Irenæus, Bishop & Martyr"
 ],
 "2026-07-04": [
@@ -13896,7 +13896,7 @@
 "St. Maria Goretti, Virgin & Martyr"
 ],
 "2026-07-07": [
-"cyril and methodius",
+"cyril methodius",
 "Ss Cyril and Methodius, Bishops and Confessors"
 ],
 "2026-07-08": [
@@ -13908,7 +13908,7 @@
 "Thursday after Sixth Sunday after Pentecost"
 ],
 "2026-07-10": [
-"the seven holy brothers",
+"seven holy brothers",
 "The Seven Holy Brothers, Martyrs, and Ss Rufina & Secunda, Virgin Martyrs"
 ],
 "2026-07-11": [
@@ -13948,7 +13948,7 @@
 "Eighth Sunday after Pentecost"
 ],
 "2026-07-20": [
-"jerome miliani",
+"jerome emiliani",
 "St. Jerome Æmiliani, Confessor"
 ],
 "2026-07-21": [
@@ -14016,7 +14016,7 @@
 "Dedication of St. Mary of the Snows"
 ],
 "2026-08-06": [
-"the transfiguration of our lord",
+"transfiguration of our lord",
 "The Transfiguration of Our Lord"
 ],
 "2026-08-07": [
@@ -14052,7 +14052,7 @@
 "Vigil of the Assumption"
 ],
 "2026-08-15": [
-"the assumption of the virgin mary",
+"assumption of the virgin mary",
 "The Assumption of the Blessed Virgin Mary"
 ],
 "2026-08-16": [
@@ -14076,11 +14076,11 @@
 "St. Bernard of Clairvaux, Abbot & Doctor"
 ],
 "2026-08-21": [
-"jane frances fremiot de chantal",
+"jane frances de chantal",
 "St. Jane Frances Fremiot de Chantal, Widow"
 ],
 "2026-08-22": [
-"octave of the assumption the immaculate heart of the virgin mary",
+"immaculate heart of the virgin mary",
 "Octave of the Assumption: The Immaculate Heart of the Blessed Virgin Mary"
 ],
 "2026-08-23": [
@@ -14100,7 +14100,7 @@
 "Wednesday after Thirteenth Sunday after Pentecost"
 ],
 "2026-08-27": [
-"joseph of calasance",
+"joseph calasance",
 "St. Joseph of Calasance, Confessor"
 ],
 "2026-08-28": [
@@ -14108,7 +14108,7 @@
 "St. Augustine, Bishop, Confessor & Doctor"
 ],
 "2026-08-29": [
-"the beheading of john the baptist",
+"beheading of john the baptist",
 "The Beheading of St. John the Baptist"
 ],
 "2026-08-30": [
@@ -14164,7 +14164,7 @@
 "Friday after Fifteenth Sunday after Pentecost"
 ],
 "2026-09-12": [
-"the most holy name of mary",
+"most holy name of mary",
 "The Most Holy Name of Mary"
 ],
 "2026-09-13": [
@@ -14176,7 +14176,7 @@
 "Exaltation of the Holy Cross"
 ],
 "2026-09-15": [
-"the seven sorrows of the virgin mary",
+"seven sorrows of the virgin mary",
 "The Seven Sorrows of the Blessed Virgin Mary"
 ],
 "2026-09-16": [
@@ -14208,7 +14208,7 @@
 "St. Thomas of Villanova, Bishop & Confessor"
 ],
 "2026-09-23": [
-"ember wednesday in september",
+"ember|september|wednesday",
 "Ember Wednesday in September"
 ],
 "2026-09-24": [
@@ -14216,11 +14216,11 @@
 "Thursday after Seventeenth Sunday after Pentecost"
 ],
 "2026-09-25": [
-"ember friday in september",
+"ember|september|friday",
 "Ember Friday in September"
 ],
 "2026-09-26": [
-"ember saturday in september",
+"ember|september|saturday",
 "Ember Saturday in September"
 ],
 "2026-09-27": [
@@ -14232,7 +14232,7 @@
 "St. Wenceslaus, Duke & Martyr"
 ],
 "2026-09-29": [
-"dedication of michael the archangel",
+"dedication of the basilica of michael the archangel",
 "Dedication of St. Michael the Archangel"
 ],
 "2026-09-30": [
@@ -14244,11 +14244,11 @@
 "Thursday after Eighteenth Sunday after Pentecost"
 ],
 "2026-10-02": [
-"the holy guardian angels",
+"holy guardian angels",
 "The Holy Guardian Angels"
 ],
 "2026-10-03": [
-"th r se of the child jesus and the holy face",
+"therese of the child jesus",
 "St. Thérèse of the Child Jesus and the Holy Face, Virgin & Doctor"
 ],
 "2026-10-04": [
@@ -14280,11 +14280,11 @@
 "St. Francis Borgia, Confessor"
 ],
 "2026-10-11": [
-"the twentieth sunday after pentecost",
+"twentieth sunday after pentecost",
 "The Twentieth Sunday after Pentecost"
 ],
 "2026-10-12": [
-"feria|the twentieth sunday after pentecost|monday",
+"feria|twentieth sunday after pentecost|monday",
 "Monday after The Twentieth Sunday after Pentecost"
 ],
 "2026-10-13": [
@@ -14336,28 +14336,28 @@
 "St. Raphael the Archangel"
 ],
 "2026-10-25": [
-"the kingship of our lord jesus christ",
+"kingship of our lord jesus christ",
 "The Kingship of Our Lord Jesus Christ"
 ],
 "2026-10-26": [
-"feria|twenty first sunday after pentecost+1|monday",
-"Monday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|monday",
+"Monday after Twenty-Second Sunday after Pentecost"
 ],
 "2026-10-27": [
-"feria|twenty first sunday after pentecost+1|tuesday",
-"Tuesday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|tuesday",
+"Tuesday after Twenty-Second Sunday after Pentecost"
 ],
 "2026-10-28": [
 "simon jude",
 "Ss Simon & Jude, Apostles"
 ],
 "2026-10-29": [
-"feria|twenty first sunday after pentecost+1|thursday",
-"Thursday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|thursday",
+"Thursday after Twenty-Second Sunday after Pentecost"
 ],
 "2026-10-30": [
-"feria|twenty first sunday after pentecost+1|friday",
-"Friday after Twenty-First Sunday after Pentecost (+1 wk)"
+"feria|twenty second sunday after pentecost|friday",
+"Friday after Twenty-Second Sunday after Pentecost"
 ],
 "2026-10-31": [
 "saturday of our lady",
@@ -14368,24 +14368,24 @@
 "All Saints"
 ],
 "2026-11-02": [
-"1 commemoration of all souls",
+"commemoration of all souls",
 "1. Commemoration of All Souls, The First Mass"
 ],
 "2026-11-03": [
-"feria|twenty first sunday after pentecost+2|tuesday",
-"Tuesday after Twenty-First Sunday after Pentecost (+2 wk)"
+"feria|twenty third sunday after pentecost|tuesday",
+"Tuesday after Twenty-Third Sunday after Pentecost"
 ],
 "2026-11-04": [
 "charles borromeo",
 "St. Charles Borromeo, Bishop & Confessor"
 ],
 "2026-11-05": [
-"feria|twenty first sunday after pentecost+2|thursday",
-"Thursday after Twenty-First Sunday after Pentecost (+2 wk)"
+"feria|twenty third sunday after pentecost|thursday",
+"Thursday after Twenty-Third Sunday after Pentecost"
 ],
 "2026-11-06": [
-"feria|twenty first sunday after pentecost+2|friday",
-"Friday after Twenty-First Sunday after Pentecost (+2 wk)"
+"feria|twenty third sunday after pentecost|friday",
+"Friday after Twenty-Third Sunday after Pentecost"
 ],
 "2026-11-07": [
 "saturday of our lady",
@@ -14444,11 +14444,11 @@
 "St. Felix of Valois, Confessor"
 ],
 "2026-11-21": [
-"the presentation of the virgin mary",
+"presentation of the virgin mary",
 "The Presentation of the Blessed Virgin Mary"
 ],
 "2026-11-22": [
-"twenty fourth and last sunday after pentecost",
+"last sunday after pentecost",
 "Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2026-11-23": [
@@ -14468,7 +14468,7 @@
 "St. Sylvester, Abbot"
 ],
 "2026-11-27": [
-"feria|twenty fourth and last sunday after pentecost|friday",
+"feria|last sunday after pentecost|friday",
 "Friday after Twenty-Fourth and Last Sunday after Pentecost"
 ],
 "2026-11-28": [

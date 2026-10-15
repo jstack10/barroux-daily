@@ -1,5 +1,5 @@
 import urllib.error
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import pytest
@@ -63,3 +63,74 @@ def test_a_page_with_no_table_rows_counts_as_unusable():
     pages = [Page(("https://x/a/", "https://x/b/"), ((2018, 10),))]
     fetch = fake_fetch({"https://x/a/": "<html>redirected home page</html>", "https://x/b/": fixture("ordo-2018-10.html")})
     assert len(build_index(pages, fetch)) == 31
+
+
+def _index(first, last, keys=("k",)):
+    from barroux_daily.liturgy import Celebration, Index
+
+    entries = {}
+    d, i = first, 0
+    while d <= last:
+        k = keys[i % len(keys)]
+        entries[d] = Celebration(k, k)
+        d += timedelta(days=1)
+        i += 1
+    return Index(entries)
+
+
+def _run_main(monkeypatch, tmp_path, new_index):
+    from barroux_daily import ordo_index
+
+    out = tmp_path / "ordo_index.json"
+    monkeypatch.setenv("ORDO_INDEX", str(out))
+    monkeypatch.setattr(ordo_index, "build_index", lambda pages, fetch: new_index)
+    return out, ordo_index.main
+
+
+def test_main_refuses_to_write_an_index_whose_span_shrinks(monkeypatch, tmp_path, capsys):
+    out, main = _run_main(monkeypatch, tmp_path, _index(date(2017, 1, 1), date(2026, 10, 31)))
+    _index(date(2017, 1, 1), date(2026, 11, 30)).save(out)
+    before = out.read_text()
+    with pytest.raises(SystemExit) as exc:
+        main()
+    assert exc.value.code not in (0, None)
+    assert "2026-11-30" in capsys.readouterr().err
+    assert out.read_text() == before
+
+
+def test_main_refuses_when_the_start_moves_later(monkeypatch, tmp_path):
+    out, main = _run_main(monkeypatch, tmp_path, _index(date(2019, 1, 1), date(2027, 11, 30)))
+    _index(date(2017, 1, 1), date(2026, 11, 30)).save(out)
+    with pytest.raises(SystemExit):
+        main()
+
+
+def test_main_writes_a_growing_index_and_reports_lonely_near_duplicate_and_unmatched(monkeypatch, tmp_path, capsys):
+    from barroux_daily.liturgy import Celebration, Index
+
+    entries = {}
+    d = date(2024, 11, 1)
+    n = 0
+    while d <= date(2026, 11, 30):
+        entries[d] = Celebration(f"feria|x|{n}", "Feria")  # all unique feria keys
+        d += timedelta(days=1)
+        n += 1
+    lonely = [f"lonely saint number {i:02d}" for i in range(45)]
+    for i, k in enumerate(lonely):
+        entries[date(2025, 1, 1) + timedelta(days=i)] = Celebration(k, k)
+    entries[date(2025, 3, 1)] = Celebration("bernardine of sienna", "x")
+    entries[date(2025, 3, 2)] = Celebration("bernardine of siena", "x")
+    entries[date(2025, 3, 3)] = Celebration("eighth sunday after pentecost", "x")
+    entries[date(2025, 3, 4)] = Celebration("eighteenth sunday after pentecost", "x")
+    out, main = _run_main(monkeypatch, tmp_path, Index(entries))
+    _index(date(2024, 11, 1), date(2026, 10, 31)).save(out)
+    main()
+    text = capsys.readouterr().out
+    assert Index.load(out).span() == (date(2024, 11, 1), date(2026, 11, 30))
+    for k in lonely:  # all of them, not just the first 40
+        assert f"  {k}\n" in text
+    assert "bernardine of siena ~ bernardine of sienna" in text
+    assert "feria|x|1 ~" not in text
+    assert "eighteenth sunday after pentecost ~" not in text  # differ only in the ordinal
+    # newest full liturgical year: Advent 2025 (Nov 30) to the Saturday before Advent 2026
+    assert "liturgical year 2026 (2025-11-30 to 2026-11-28): 364 days with no earlier match" in text
