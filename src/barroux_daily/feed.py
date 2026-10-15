@@ -10,7 +10,7 @@ from .episodes import HOUR_LABELS, HOURS, Episode
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ET.register_namespace("itunes", ITUNES)
 
-IMAGE = "http://barrouxchant.com/resources/podcast-logo-large.jpg"
+IMAGE = "https://barrouxchant.com/resources/podcast-logo-large.jpg"
 AUTHOR = "Abbaye Sainte-Madeleine du Barroux"
 
 
@@ -40,7 +40,10 @@ def _description(ep: Episode) -> str:
         "Chanted by the monks of Sainte-Madeleine du Barroux."
     )
     if ep.celebration is None:
-        text += " Also matched by calendar date (liturgical calendar unavailable), so movable feasts may differ."
+        text += (
+            " This day was matched by calendar date (liturgical calendar not yet available), "
+            "so movable feasts may differ."
+        )
     return text
 
 
@@ -54,7 +57,7 @@ def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str) -> byt
         ch,
         "description",
         "The Divine Office chanted by the monks of Le Barroux, for today's liturgical day, "
-        "assembled from the barrouxchant.com archive. Private feed.",
+        "assembled from the barrouxchant.com archive. Unlisted feed.",
     )
     _text(ch, "language", "la")
     _text(ch, _q("author"), AUTHOR)

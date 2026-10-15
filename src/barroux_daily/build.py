@@ -17,7 +17,7 @@ WINDOW_DAYS = 7
 INDEX = """<!doctype html>
 <meta charset="utf-8">
 <title>Barroux Chant: Today's Office</title>
-<p>Private podcast feed. Add this URL to your podcast app:</p>
+<p>Unlisted podcast feed. Add this URL to your podcast app:</p>
 <p><a href="FEED_URL">FEED_URL</a></p>
 """
 

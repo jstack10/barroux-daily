@@ -27,7 +27,7 @@ def test_channel_metadata_and_private_block():
     assert ch.findtext("language") == "la"
     assert ch.findtext("itunes:block", namespaces=NS) == "yes"
     assert ch.findtext("itunes:explicit", namespaces=NS) == "no"
-    assert ch.find("itunes:image", NS).get("href").startswith("http")
+    assert ch.find("itunes:image", NS).get("href") == "https://barrouxchant.com/resources/podcast-logo-large.jpg"
 
 
 def test_item_fields_for_a_liturgically_matched_episode():
@@ -52,7 +52,10 @@ def test_calendar_matched_episode_says_so_and_titles_by_date():
     ch = parse([(ep(d, "lauds", celebration=None), 5)])
     item = ch.find("item")
     assert item.findtext("title") == "Lauds · March 4"
-    assert "matched by calendar date" in item.findtext("description")
+    assert item.findtext("description").endswith(
+        " This day was matched by calendar date (liturgical calendar not yet available), "
+        "so movable feasts may differ."
+    )
 
 
 def test_pub_date_is_local_midnight_plus_hour_index():

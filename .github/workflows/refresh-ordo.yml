@@ -2,7 +2,9 @@ name: refresh-ordo
 
 on:
   schedule:
-    - cron: "23 5 2 * *" # 2nd of each month; picks up next year's ordo when propria.org posts it
+    # Mondays 05:23 UTC: picks up next year's ordo soon after propria.org posts it (often late
+    # in the year, close to Advent). Exits non-zero, committing nothing, if a scrape would shrink the index.
+    - cron: "23 5 * * 1"
   workflow_dispatch:
 
 permissions:
