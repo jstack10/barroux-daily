@@ -41,7 +41,8 @@ def test_recordings_from_a_different_calendar_date_are_used_when_the_celebration
     idx = Index({today: SUNDAY, moved: SUNDAY, date(2019, 10, 20): Celebration("other", "Other")})
     (ep,) = episodes_for(today, get_day, idx)
     assert ep.recorded == moved
-    assert date(2019, 10, 20) not in calls  # same weekday-ish neighbours are never queried
+    # for Lauds the matching celebration is tried before any calendar neighbour
+    assert calls.index(moved) < calls.index(date(2019, 10, 20))
 
 
 def test_the_days_own_recording_wins_over_the_archive():
@@ -65,11 +66,11 @@ def test_never_queries_the_future_or_before_first_year():
 
 
 def test_stops_as_soon_as_every_hour_is_found():
-    d26, d25, d24 = date(2026, 10, 15), date(2025, 10, 15), date(2024, 10, 15)
-    get_day, calls = archive({d25: list(HOURS)})
-    eps = episodes_for(d26, get_day, teresa_index(d26, d25, d24))
+    d26, d20, d24 = date(2026, 10, 15), date(2020, 10, 15), date(2024, 10, 15)  # Thu, Thu, Tue
+    get_day, calls = archive({d20: list(HOURS)})
+    eps = episodes_for(d26, get_day, teresa_index(d26, d20, d24))
     assert len(eps) == 7
-    assert calls == [d26, d25]
+    assert calls == [d26, d20]
 
 
 def test_nothing_anywhere_gives_empty_list():
@@ -91,8 +92,8 @@ def test_no_index_at_all_also_falls_back_and_feb_29_skips_non_leap_years():
     get_day, calls = archive({date(2020, 2, 29): ["lauds"]})
     eps = episodes_for(date(2024, 2, 29), get_day, None)
     assert [(e.hour, e.recorded) for e in eps] == [("lauds", date(2020, 2, 29))]
-    assert {d.year for d in calls} == {2024, 2020}
-    assert all((d.month, d.day) == (2, 29) for d in calls)
+    lauds = candidate_dates(date(2024, 2, 29), None, hour="lauds")
+    assert [d.year for d in lauds] == [2024, 2020] and all((d.month, d.day) == (2, 29) for d in lauds)
     assert min(candidate_dates(date(2025, 10, 15), None)).year == FIRST_YEAR
 
 
@@ -107,3 +108,42 @@ def test_same_weekday_years_come_first_because_lesser_feasts_use_weekday_psalms(
 
 def test_calendar_fallback_also_prefers_the_same_weekday():
     assert candidate_dates(date(2026, 10, 19), None)[:3] == [date(2026, 10, 19), date(2020, 10, 19), date(2025, 10, 19)]
+
+
+# Weekday hours (Prime, Terce, Sext, Nones, Compline) always take the weekday's psalms.
+
+MON = date(2026, 10, 19)
+PETER = Celebration("peter", "St. Peter of Alcantara")
+SUN21 = Celebration("sunday21", "Twenty-First Sunday after Pentecost")
+
+
+def test_weekday_hour_prefers_the_same_liturgical_week_over_the_feast_on_another_weekday():
+    # Peter never fell on a Monday before; the Monday after the 21st Sunday did, in 2022.
+    idx = Index({
+        MON: PETER, date(2024, 10, 19): PETER,  # Saturday
+        date(2026, 10, 18): SUN21, date(2022, 10, 23): SUN21,
+    })
+    terce = candidate_dates(MON, idx, hour="terce")
+    assert terce[:2] == [MON, date(2022, 10, 24)]
+    assert terce[-1] == date(2024, 10, 19)  # the feast on a Saturday is the last resort
+    assert all(d.weekday() == 0 for d in terce[:-1])
+
+
+def test_weekday_hour_falls_back_to_the_nearest_monday_by_calendar():
+    idx = Index({MON: PETER, date(2024, 10, 19): PETER})
+    terce = candidate_dates(MON, idx, hour="terce")
+    assert terce[1:4] == [date(2025, 10, 20), date(2024, 10, 21), date(2023, 10, 16)]
+    assert all(abs((d - date(d.year, 10, 19)).days) <= 3 for d in terce[1:-1])
+
+
+def test_lauds_and_vespers_still_follow_the_feast():
+    idx = Index({MON: PETER, date(2024, 10, 19): PETER, date(2026, 10, 18): SUN21, date(2022, 10, 23): SUN21})
+    assert candidate_dates(MON, idx, hour="vespers") == [MON, date(2024, 10, 19)]
+
+
+def test_episodes_mix_feast_lauds_with_same_weekday_terce():
+    sat, mon22 = date(2024, 10, 19), date(2022, 10, 24)
+    idx = Index({MON: PETER, sat: PETER, date(2026, 10, 18): SUN21, date(2022, 10, 23): SUN21})
+    get_day, _ = archive({sat: ["lauds", "terce"], mon22: ["lauds", "terce"]})
+    eps = {e.hour: e.recorded for e in episodes_for(MON, get_day, idx)}
+    assert eps == {"lauds": sat, "terce": mon22}
