@@ -32,7 +32,7 @@ def test_liturgical_match_picks_newest_recording_per_hour_in_canonical_order():
     get_day, _ = archive({d25: ["vespers", "lauds"], d24: ["lauds", "prime"]})
     eps = episodes_for(d26, get_day, teresa_index(d26, d25, d24))
     assert [(e.hour, e.recorded) for e in eps] == [("lauds", d25), ("prime", d24), ("vespers", d25)]
-    assert eps[0] == Episode(d26, "lauds", d25, url(d25, "lauds"), "St. Teresa of Jesus")
+    assert eps[0] == Episode(d26, "lauds", d25, url(d25, "lauds"), "St. Teresa of Jesus", True, "St. Teresa of Jesus")
 
 
 def test_recordings_from_a_different_calendar_date_are_used_when_the_celebration_matches():
@@ -147,3 +147,19 @@ def test_episodes_mix_feast_lauds_with_same_weekday_terce():
     get_day, _ = archive({sat: ["lauds", "terce"], mon22: ["lauds", "terce"]})
     eps = {e.hour: e.recorded for e in episodes_for(MON, get_day, idx)}
     assert eps == {"lauds": sat, "terce": mon22}
+
+
+def test_episodes_record_whether_the_source_was_the_same_feast():
+    sat, mon22 = date(2024, 10, 19), date(2022, 10, 24)
+    idx = Index({MON: PETER, sat: PETER, date(2026, 10, 18): SUN21, date(2022, 10, 23): SUN21,
+                 mon22: Celebration("feria|sunday21|mon", "Monday after the 21st Sunday")})
+    get_day, _ = archive({sat: ["lauds"], mon22: ["terce"]})
+    lauds, terce = episodes_for(MON, get_day, idx)
+    assert (lauds.same_feast, lauds.source_celebration) == (True, "St. Peter of Alcantara")
+    assert (terce.same_feast, terce.source_celebration) == (False, "Monday after the 21st Sunday")
+
+
+def test_without_an_index_same_feast_is_unknown():
+    get_day, _ = archive({date(2025, 10, 19): ["lauds"]})
+    (ep,) = episodes_for(MON, get_day, None)
+    assert ep.same_feast is None

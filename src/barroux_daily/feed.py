@@ -5,7 +5,7 @@ from datetime import datetime, time, timedelta
 from email.utils import format_datetime
 from zoneinfo import ZoneInfo
 
-from .episodes import HOUR_LABELS, HOURS, Episode
+from .episodes import HOUR_LABELS, HOURS, WEEKDAY_HOURS, Episode
 
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ET.register_namespace("itunes", ITUNES)
@@ -40,17 +40,39 @@ def _title(ep: Episode) -> str:
     return f"{when} · {label} · {ep.celebration}" if ep.celebration else f"{when} · {label}"
 
 
-def _description(ep: Episode) -> str:
-    text = (
-        f"{HOUR_LABELS[ep.hour]}, recorded {ep.recorded:%B} {ep.recorded.day}, {ep.recorded.year}. "
-        "Chanted by the monks of Sainte-Madeleine du Barroux."
-    )
-    if ep.celebration is None:
-        text += (
-            " This day was matched by calendar date (liturgical calendar not yet available), "
-            "so movable feasts may differ."
+CHECK = "For today's antiphon, chapter and prayer, see Breviarium Meum."
+
+
+def _verdict(ep: Episode) -> str:
+    """How far this recording matches the day under the 1963 monastic rubrics."""
+    weekday = f"{ep.recorded:%A}"
+    same_weekday = ep.recorded.weekday() == ep.day.weekday()
+    if ep.same_feast is None:
+        return (
+            "? Unchecked: matched by calendar date only (liturgical calendar not yet available), "
+            f"so movable feasts may differ. {CHECK}"
         )
-    return text
+    if ep.hour in WEEKDAY_HOURS:  # psalms always from the weekday
+        if not same_weekday:
+            return f"✗ Psalms differ: recorded on a {weekday}. {CHECK}"
+        if ep.same_feast:
+            return "✓ Right: same feast, same weekday."
+        return f"◐ Psalms right, but recorded on {ep.source_celebration}. {CHECK}"
+    if not ep.same_feast:
+        return f"✗ Different feast: {ep.source_celebration}. {CHECK}"
+    if same_weekday:
+        return "✓ Right: same feast, same weekday."
+    return (
+        f"◐ Same feast, recorded on a {weekday}. Greater feasts have their own psalms; "
+        f"on lesser feasts the psalms follow the weekday and may differ. {CHECK}"
+    )
+
+
+def _description(ep: Episode) -> str:
+    return (
+        f"{_verdict(ep)} {HOUR_LABELS[ep.hour]}, recorded {ep.recorded:%A, %B} {ep.recorded.day}, "
+        f"{ep.recorded.year}. Chanted by the monks of Sainte-Madeleine du Barroux."
+    )
 
 
 def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str, lead_days: int = 0) -> bytes:

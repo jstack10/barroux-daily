@@ -27,6 +27,8 @@ class Episode:
     recorded: date  # when the monks recorded it
     url: str
     celebration: str | None  # ordo name for `day`; None when matched by calendar date only
+    same_feast: bool | None = None  # recording is of the same celebration; None if unknown
+    source_celebration: str | None = None  # ordo name for `recorded`
 
 
 # Under the 1963 monastic rubrics these hours always take their psalms from the weekly
@@ -110,6 +112,8 @@ def episodes_for(
                 fetched[source] = get_day(source)
             url = fetched[source].get(hour)
             if url:
-                episodes.append(Episode(day, hour, source, url, name))
+                src = index.celebration(source) if index is not None else None
+                same = (src is not None and src.key == cel.key) if cel is not None else None
+                episodes.append(Episode(day, hour, source, url, name, same, src.name if src else None))
                 break
     return episodes
