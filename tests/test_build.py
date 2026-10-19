@@ -95,3 +95,4 @@ def test_main_writes_feed_and_index_even_without_an_ordo_index(tmp_path, monkeyp
     build.main()
     assert (tmp_path / "feed.xml").read_bytes().startswith(b"<?xml")
     assert f"{BASE}/feed.xml" in (tmp_path / "index.html").read_text()
+    assert (tmp_path / "cover.jpg").read_bytes()[:3] == b"\xff\xd8\xff"

@@ -27,7 +27,7 @@ def test_channel_metadata_and_private_block():
     assert ch.findtext("language") == "la"
     assert ch.findtext("itunes:block", namespaces=NS) == "yes"
     assert ch.findtext("itunes:explicit", namespaces=NS) == "no"
-    assert ch.find("itunes:image", NS).get("href") == "https://barrouxchant.com/resources/podcast-logo-large.jpg"
+    assert ch.find("itunes:image", NS).get("href") == "https://example.github.io/barroux-daily/cover.jpg"
 
 
 def test_item_fields_for_a_liturgically_matched_episode():

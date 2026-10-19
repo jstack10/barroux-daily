@@ -10,7 +10,7 @@ from .episodes import HOUR_LABELS, HOURS, Episode
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ET.register_namespace("itunes", ITUNES)
 
-IMAGE = "https://barrouxchant.com/resources/podcast-logo-large.jpg"
+COVER = "cover.jpg"  # copied next to feed.xml by build.main
 AUTHOR = "Abbaye Sainte-Madeleine du Barroux"
 
 
@@ -70,7 +70,7 @@ def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str, lead_d
     _text(ch, _q("explicit"), "no")
     _text(ch, _q("type"), "episodic")
     _text(ch, _q("block"), "yes")
-    ET.SubElement(ch, _q("image"), {"href": IMAGE})
+    ET.SubElement(ch, _q("image"), {"href": f"{base_url}/{COVER}"})
     cat = ET.SubElement(ch, _q("category"), {"text": "Religion & Spirituality"})
     ET.SubElement(cat, _q("category"), {"text": "Christianity"})
 

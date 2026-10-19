@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import shutil
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -9,10 +10,11 @@ from zoneinfo import ZoneInfo
 
 from .api import fetch_day, head_length
 from .episodes import Episode, episodes_for
-from .feed import render_feed
+from .feed import COVER, render_feed
 from .liturgy import Index
 
 WINDOW_DAYS = 7
+STATIC = Path(__file__).resolve().parents[2] / "static"
 AHEAD_DAYS = 2
 
 INDEX = """<!doctype html>
@@ -70,6 +72,7 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     (out / "feed.xml").write_bytes(xml)
     (out / "index.html").write_text(INDEX.replace("FEED_URL", f"{base_url}/feed.xml"))
+    shutil.copyfile(STATIC / COVER, out / COVER)
     print(f"wrote {out / 'feed.xml'} for {today}")
 
 
