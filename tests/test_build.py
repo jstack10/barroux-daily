@@ -39,9 +39,9 @@ def test_no_episode_is_dated_after_the_build_day():
     assert max(dates) == date(2026, 10, 15)
 
 
-def test_default_window_is_seven_days_plus_one_ahead():
+def test_default_feed_is_today_and_tomorrow():
     xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE)
-    assert len(guids(xml)) == build.WINDOW_DAYS + build.AHEAD_DAYS == 8
+    assert len(guids(xml)) == build.WINDOW_DAYS + build.AHEAD_DAYS == 2
 
 
 def test_episode_whose_file_404s_is_dropped():

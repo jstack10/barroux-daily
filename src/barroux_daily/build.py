@@ -13,7 +13,7 @@ from .episodes import Episode, episodes_for
 from .feed import COVER, render_feed
 from .liturgy import Index
 
-WINDOW_DAYS = 7
+WINDOW_DAYS = 1  # today; plus AHEAD_DAYS
 STATIC = Path(__file__).resolve().parents[2] / "static"
 AHEAD_DAYS = 1
 

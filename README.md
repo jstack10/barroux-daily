@@ -6,8 +6,8 @@ This takes today's liturgical day (from the propria.org ordo), finds the same
 celebration in earlier years, and fills each hour from the newest recording that
 has it. It rebuilds every day.
 
-The feed always holds tomorrow as well as today and the past week, so a
-late or skipped build never leaves today empty. Titles start with the day they are
+The feed holds just today and tomorrow, so a late or skipped build never
+leaves today empty. Titles start with the day they are
 for (`Mon Oct 19 · Lauds · St. Peter of Alcantara, Confessor`). Episodes are dated
 one day early so podcast apps don't hide the upcoming ones.
 
