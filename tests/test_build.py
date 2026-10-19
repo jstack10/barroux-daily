@@ -91,7 +91,28 @@ def test_main_writes_feed_and_index_even_without_an_ordo_index(tmp_path, monkeyp
     monkeypatch.setenv("ORDO_INDEX", str(tmp_path / "missing.json"))
     monkeypatch.setattr(build, "fetch_day", only_lauds)
     monkeypatch.setattr(build, "head_length", lambda u: 10)
+    monkeypatch.setattr(build, "new_calendar", lambda d: None)
     build.main()
     assert (tmp_path / "feed.xml").read_bytes().startswith(b"<?xml")
     assert f"{BASE}/feed.xml" in (tmp_path / "index.html").read_text()
     assert (tmp_path / "cover.jpg").read_bytes()[:3] == b"\xff\xd8\xff"
+
+
+def test_descriptions_carry_the_new_calendar_day():
+    looked_up = []
+
+    def newcal(d):
+        looked_up.append(d)
+        return "Monday, 29th week in Ordinary Time"
+
+    xml = build_feed(date(2026, 10, 19), only_lauds, lambda u: 10, NY, BASE, window=1, ahead=0,
+                     lookup_new_calendar=newcal)
+    desc = ET.fromstring(xml).findtext("channel/item/description")
+    assert "New calendar: Monday, 29th week in Ordinary Time." in desc
+    assert looked_up == [date(2026, 10, 19)]
+
+
+def test_no_new_calendar_line_when_the_lookup_fails():
+    xml = build_feed(date(2026, 10, 19), only_lauds, lambda u: 10, NY, BASE, window=1, ahead=0,
+                     lookup_new_calendar=lambda d: None)
+    assert "New calendar" not in ET.fromstring(xml).findtext("channel/item/description")

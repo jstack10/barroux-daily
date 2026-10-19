@@ -71,8 +71,12 @@ def _verdict(ep: Episode) -> str:
 def _description(ep: Episode) -> str:
     return (
         f"{_verdict(ep)} {HOUR_LABELS[ep.hour]}, recorded {ep.recorded:%A, %B} {ep.recorded.day}, "
-        f"{ep.recorded.year}. Chanted by the monks of Sainte-Madeleine du Barroux."
+        f"{ep.recorded.year}.{_new_calendar(ep)} Chanted by the monks of Sainte-Madeleine du Barroux."
     )
+
+
+def _new_calendar(ep: Episode) -> str:
+    return f" New calendar: {ep.new_calendar}." if ep.new_calendar else ""
 
 
 def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str, lead_days: int = 0) -> bytes:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import shutil
+from dataclasses import replace
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -12,6 +13,7 @@ from .api import fetch_day, head_length
 from .episodes import Episode, episodes_for
 from .feed import COVER, render_feed
 from .liturgy import Index
+from .newcal import new_calendar
 
 WINDOW_DAYS = 1  # today; plus AHEAD_DAYS
 STATIC = Path(__file__).resolve().parents[2] / "static"
@@ -45,13 +47,16 @@ def build_feed(
     index: Index | None = None,
     window: int = WINDOW_DAYS,
     ahead: int = AHEAD_DAYS,
+    lookup_new_calendar: Callable[[date], str | None] = lambda d: None,
 ) -> bytes:
     items: list[tuple[Episode, int]] = []
     for offset in range(-ahead, window):
         day = today - timedelta(days=offset)
         if index is not None and index.celebration(day) is None:
             print(f"warning: {day} is not in the ordo index; matching by calendar date", file=sys.stderr)
+        newcal = lookup_new_calendar(day)
         for ep in episodes_for(day, get_day, index):
+            ep = replace(ep, new_calendar=newcal)
             length = probe(ep.url)
             if length is None:
                 print(f"skipping {ep.url}: 404 on CDN", file=sys.stderr)
@@ -68,7 +73,7 @@ def main() -> None:
     out = Path(os.environ.get("OUT_DIR", "public"))
     index = load_index(Path(os.environ.get("ORDO_INDEX", "data/ordo_index.json")))
     today = local_today(tz, datetime.now(timezone.utc))
-    xml = build_feed(today, fetch_day, head_length, tz, base_url, index)
+    xml = build_feed(today, fetch_day, head_length, tz, base_url, index, lookup_new_calendar=new_calendar)
     out.mkdir(parents=True, exist_ok=True)
     (out / "feed.xml").write_bytes(xml)
     (out / "index.html").write_text(INDEX.replace("FEED_URL", f"{base_url}/feed.xml"))

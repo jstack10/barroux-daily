@@ -29,6 +29,7 @@ class Episode:
     celebration: str | None  # ordo name for `day`; None when matched by calendar date only
     same_feast: bool | None = None  # recording is of the same celebration; None if unknown
     source_celebration: str | None = None  # ordo name for `recorded`
+    new_calendar: str | None = None  # the day in the 1969 calendar, for reference
 
 
 # Under the 1963 monastic rubrics these hours always take their psalms from the weekly
