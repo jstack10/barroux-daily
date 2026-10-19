@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timezone
+from email.utils import parsedate_to_datetime
 
 import pytest
 
@@ -20,32 +21,47 @@ def guids(xml):
 
 
 def test_window_covers_today_and_previous_days():
-    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=2)
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=2, ahead=0)
     assert guids(xml) == ["barroux-daily:2026-10-15:lauds", "barroux-daily:2026-10-14:lauds"]
 
 
-def test_default_window_is_seven_days():
+def test_feed_includes_the_next_two_days_ahead():
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=1)
+    assert guids(xml) == [
+        "barroux-daily:2026-10-17:lauds",
+        "barroux-daily:2026-10-16:lauds",
+        "barroux-daily:2026-10-15:lauds",
+    ]
+
+
+def test_no_episode_is_dated_after_the_build_day():
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=1)
+    dates = [parsedate_to_datetime(p.text).date() for p in ET.fromstring(xml).iterfind("channel/item/pubDate")]
+    assert max(dates) == date(2026, 10, 15)
+
+
+def test_default_window_is_seven_days_plus_two_ahead():
     xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE)
-    assert len(guids(xml)) == build.WINDOW_DAYS == 7
+    assert len(guids(xml)) == build.WINDOW_DAYS + build.AHEAD_DAYS == 9
 
 
 def test_episode_whose_file_404s_is_dropped():
     def probe(url):
         return None if "2026-10-14" in url else 10
 
-    xml = build_feed(date(2026, 10, 15), only_lauds, probe, NY, BASE, window=2)
+    xml = build_feed(date(2026, 10, 15), only_lauds, probe, NY, BASE, window=2, ahead=0)
     assert guids(xml) == ["barroux-daily:2026-10-15:lauds"]
 
 
 def test_enclosure_length_comes_from_probe():
-    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 1234, NY, BASE, window=1)
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 1234, NY, BASE, window=1, ahead=0)
     assert ET.fromstring(xml).find("channel/item/enclosure").get("length") == "1234"
 
 
 def test_titles_use_the_index_celebration_name():
     idx = Index({date(2026, 10, 15): Celebration("teresa", "St. Teresa of Jesus")})
-    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, index=idx, window=1)
-    assert ET.fromstring(xml).findtext("channel/item/title") == "Lauds · St. Teresa of Jesus"
+    xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, index=idx, window=1, ahead=0)
+    assert ET.fromstring(xml).findtext("channel/item/title") == "Thu Oct 15 · Lauds · St. Teresa of Jesus"
 
 
 def test_refuses_to_publish_an_empty_feed():

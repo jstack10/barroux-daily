@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from datetime import datetime, time
+from datetime import datetime, time, timedelta
 from email.utils import format_datetime
 from zoneinfo import ZoneInfo
 
@@ -24,14 +24,20 @@ def _text(parent: ET.Element, tag: str, value: str, **attrs: str) -> ET.Element:
     return el
 
 
-def pub_date(ep: Episode, zone: ZoneInfo) -> datetime:
-    """Local midnight + (hour index + 1) minutes, so hours sort in liturgical order."""
-    return datetime.combine(ep.day, time(0, HOURS.index(ep.hour) + 1), tzinfo=zone)
+def pub_date(ep: Episode, zone: ZoneInfo, lead_days: int = 0) -> datetime:
+    """Local midnight + (hour index + 1) minutes, so hours sort in liturgical order.
+
+    lead_days shifts every episode earlier so upcoming days are never future-dated
+    (podcast apps hide episodes published in the future).
+    """
+    day = ep.day - timedelta(days=lead_days)
+    return datetime.combine(day, time(0, HOURS.index(ep.hour) + 1), tzinfo=zone)
 
 
 def _title(ep: Episode) -> str:
+    when = f"{ep.day:%a %b} {ep.day.day}"
     label = HOUR_LABELS[ep.hour]
-    return f"{label} · {ep.celebration}" if ep.celebration else f"{label} · {ep.day:%B} {ep.day.day}"
+    return f"{when} · {label} · {ep.celebration}" if ep.celebration else f"{when} · {label}"
 
 
 def _description(ep: Episode) -> str:
@@ -47,7 +53,7 @@ def _description(ep: Episode) -> str:
     return text
 
 
-def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str) -> bytes:
+def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str, lead_days: int = 0) -> bytes:
     zone = ZoneInfo(tz)
     rss = ET.Element("rss", {"version": "2.0"})
     ch = ET.SubElement(rss, "channel")
@@ -68,12 +74,12 @@ def render_feed(items: list[tuple[Episode, int]], tz: str, base_url: str) -> byt
     cat = ET.SubElement(ch, _q("category"), {"text": "Religion & Spirituality"})
     ET.SubElement(cat, _q("category"), {"text": "Christianity"})
 
-    for ep, length in sorted(items, key=lambda it: pub_date(it[0], zone), reverse=True):
+    for ep, length in sorted(items, key=lambda it: pub_date(it[0], zone, lead_days), reverse=True):
         item = ET.SubElement(ch, "item")
         _text(item, "title", _title(ep))
         _text(item, "description", _description(ep))
         _text(item, "guid", f"barroux-daily:{ep.day.isoformat()}:{ep.hour}", isPermaLink="false")
-        _text(item, "pubDate", format_datetime(pub_date(ep, zone)))
+        _text(item, "pubDate", format_datetime(pub_date(ep, zone, lead_days)))
         ET.SubElement(
             item,
             "enclosure",

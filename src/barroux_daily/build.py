@@ -13,6 +13,7 @@ from .feed import render_feed
 from .liturgy import Index
 
 WINDOW_DAYS = 7
+AHEAD_DAYS = 2
 
 INDEX = """<!doctype html>
 <meta charset="utf-8">
@@ -41,10 +42,11 @@ def build_feed(
     base_url: str,
     index: Index | None = None,
     window: int = WINDOW_DAYS,
+    ahead: int = AHEAD_DAYS,
 ) -> bytes:
     items: list[tuple[Episode, int]] = []
-    for back in range(window):
-        day = today - timedelta(days=back)
+    for offset in range(-ahead, window):
+        day = today - timedelta(days=offset)
         if index is not None and index.celebration(day) is None:
             print(f"warning: {day} is not in the ordo index; matching by calendar date", file=sys.stderr)
         for ep in episodes_for(day, get_day, index):
@@ -55,7 +57,7 @@ def build_feed(
             items.append((ep, length))
     if not items:
         raise RuntimeError("no episodes found; refusing to publish an empty feed")
-    return render_feed(items, tz, base_url)
+    return render_feed(items, tz, base_url, lead_days=ahead)
 
 
 def main() -> None:

@@ -29,7 +29,7 @@ A static RSS feed, rebuilt daily by GitHub Actions and served from GitHub Pages.
    - Ferias: key = `feria|<preceding temporal Sunday>|<weekday>`, so "Wednesday after the 21st Sunday after Pentecost" matches across years even when it lands in November. If a Sunday is displaced by a feast, the following ferias get a `+n` suffix so keys stay unique within a year.
 2. **Daily build.** For today's date, look up its key. The candidate dates are every earlier date (2017 on) with the same key, newest first. For each of the 7 hours, take the first candidate that has a recording. This gives one full set per day, mostly from the most recent year where that celebration fell.
 3. If today is not in the index (e.g. the new ordo year isn't published yet), fall back to same month/day and say so in the episode description.
-4. One episode per hour; titles read "Lauds · St. Teresa of Jesus, Virgin & Doctor". Enclosures point straight at `cdn.barrouxchant.com`. The feed carries the last 7 days. Episode `pubDate`s are 00:01 to 00:07 local time in hour order.
+4. One episode per hour; titles read "Thu Oct 15 · Lauds · St. Teresa of Jesus, Virgin & Doctor". Enclosures point straight at `cdn.barrouxchant.com`. The feed carries the last 7 days plus the next 2 days. Episode `pubDate`s are 00:01 to 00:07 local time in hour order, shifted 2 days earlier than the day they are for, so upcoming days are never future-dated.
 5. Private feed (`itunes:block yes`), added to a podcast app by URL.
 
 ## Decisions and non-goals

@@ -34,7 +34,7 @@ def test_item_fields_for_a_liturgically_matched_episode():
     d = date(2026, 10, 15)
     ch = parse([(ep(d, "none"), 46082089)])
     (item,) = ch.findall("item")
-    assert item.findtext("title") == "Nones · St. Teresa of Jesus, Virgin & Doctor"
+    assert item.findtext("title") == "Thu Oct 15 · Nones · St. Teresa of Jesus, Virgin & Doctor"
     description = item.findtext("description")
     assert "recorded October 15, 2025" in description
     assert "calendar date" not in description
@@ -51,7 +51,7 @@ def test_calendar_matched_episode_says_so_and_titles_by_date():
     d = date(2027, 3, 4)
     ch = parse([(ep(d, "lauds", celebration=None), 5)])
     item = ch.find("item")
-    assert item.findtext("title") == "Lauds · March 4"
+    assert item.findtext("title") == "Thu Mar 4 · Lauds"
     assert item.findtext("description").endswith(
         " This day was matched by calendar date (liturgical calendar not yet available), "
         "so movable feasts may differ."
@@ -86,3 +86,9 @@ def test_urls_with_ampersands_survive_xml_escaping():
     url = "https://cdn.barrouxchant.com/x.mp3?a=1&b=2"
     ch = parse([(ep(date(2026, 10, 15), "lauds", url=url), 5)])
     assert ch.find("item/enclosure").get("url") == url
+
+
+def test_lead_days_dates_episodes_early_so_upcoming_days_are_not_future_dated():
+    zone = ZoneInfo(NY)
+    d = date(2025, 10, 17)
+    assert pub_date(ep(d, "lauds"), zone, lead_days=2).isoformat() == "2025-10-15T00:01:00-04:00"
