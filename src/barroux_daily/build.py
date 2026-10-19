@@ -15,7 +15,7 @@ from .liturgy import Index
 
 WINDOW_DAYS = 7
 STATIC = Path(__file__).resolve().parents[2] / "static"
-AHEAD_DAYS = 2
+AHEAD_DAYS = 1
 
 INDEX = """<!doctype html>
 <meta charset="utf-8">

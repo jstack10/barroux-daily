@@ -25,10 +25,9 @@ def test_window_covers_today_and_previous_days():
     assert guids(xml) == ["barroux-daily:2026-10-15:lauds", "barroux-daily:2026-10-14:lauds"]
 
 
-def test_feed_includes_the_next_two_days_ahead():
+def test_feed_includes_tomorrow():
     xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE, window=1)
     assert guids(xml) == [
-        "barroux-daily:2026-10-17:lauds",
         "barroux-daily:2026-10-16:lauds",
         "barroux-daily:2026-10-15:lauds",
     ]
@@ -40,9 +39,9 @@ def test_no_episode_is_dated_after_the_build_day():
     assert max(dates) == date(2026, 10, 15)
 
 
-def test_default_window_is_seven_days_plus_two_ahead():
+def test_default_window_is_seven_days_plus_one_ahead():
     xml = build_feed(date(2026, 10, 15), only_lauds, lambda u: 10, NY, BASE)
-    assert len(guids(xml)) == build.WINDOW_DAYS + build.AHEAD_DAYS == 9
+    assert len(guids(xml)) == build.WINDOW_DAYS + build.AHEAD_DAYS == 8
 
 
 def test_episode_whose_file_404s_is_dropped():
