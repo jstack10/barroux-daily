@@ -30,17 +30,26 @@ class Episode:
 
 
 def candidate_dates(day: date, index: Index | None, first_year: int = FIRST_YEAR) -> list[date]:
-    """Dates whose recordings could stand in for `day`, newest first."""
+    """Dates whose recordings could stand in for `day`: same weekday first, then newest first.
+
+    On ferias and lesser feasts the psalms come from the weekday, so a Monday's feast is
+    best filled from a year when it also fell on a Monday.
+    """
     cel = index.celebration(day) if index is not None else None
     if cel is not None:
-        return [d for d in index.dates_for(cel.key) if d <= day and d.year >= first_year]
+        dates = [d for d in index.dates_for(cel.key) if d <= day and d.year >= first_year]
+        return _same_weekday_first(day, dates)
     dates = []
     for year in range(day.year, first_year - 1, -1):
         try:
             dates.append(date(year, day.month, day.day))
         except ValueError:  # Feb 29 in a non-leap year
             pass
-    return dates
+    return _same_weekday_first(day, dates)
+
+
+def _same_weekday_first(day: date, dates: list[date]) -> list[date]:
+    return sorted(dates, key=lambda d: d.weekday() != day.weekday())  # stable: keeps newest-first
 
 
 def episodes_for(

@@ -84,7 +84,7 @@ def test_day_missing_from_the_index_falls_back_to_the_calendar_date_and_has_no_c
     (ep,) = episodes_for(day, get_day, Index({date(2026, 10, 15): TERESA}))
     assert ep.recorded == older
     assert ep.celebration is None
-    assert calls[0] == day and calls[1] == date(2026, 3, 4)
+    assert calls[0] == day and calls[1] == date(2021, 3, 4)  # same weekday (Thu) first
 
 
 def test_no_index_at_all_also_falls_back_and_feb_29_skips_non_leap_years():
@@ -94,3 +94,16 @@ def test_no_index_at_all_also_falls_back_and_feb_29_skips_non_leap_years():
     assert {d.year for d in calls} == {2024, 2020}
     assert all((d.month, d.day) == (2, 29) for d in calls)
     assert min(candidate_dates(date(2025, 10, 15), None)).year == FIRST_YEAR
+
+
+def test_same_weekday_years_come_first_because_lesser_feasts_use_weekday_psalms():
+    from barroux_daily.liturgy import Celebration, Index
+    key = Celebration("peter of alcantara", "St. Peter of Alcantara")
+    idx = Index({date(y, 10, 19): key for y in (2026, 2024, 2023, 2020, 2019)})
+    assert candidate_dates(date(2026, 10, 19), idx) == [
+        date(2026, 10, 19), date(2020, 10, 19), date(2024, 10, 19), date(2023, 10, 19), date(2019, 10, 19),
+    ]
+
+
+def test_calendar_fallback_also_prefers_the_same_weekday():
+    assert candidate_dates(date(2026, 10, 19), None)[:3] == [date(2026, 10, 19), date(2020, 10, 19), date(2025, 10, 19)]
